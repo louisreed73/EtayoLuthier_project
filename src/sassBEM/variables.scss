@@ -1,0 +1,25 @@
+//Background Variables;
+
+$backgroundHeader:rgba(243, 243, 243,1);
+$backgroundHeaderHover:rgba(4, 75, 116,1);
+$backgroundMainPage:rgba(243, 243, 243,1);
+$backgroundFooter:rgba(0,0,0,1);
+// $colorBackgroundHeaderHover:green;
+
+
+
+//color variables
+
+$colorActive:rgba(4, 75, 116,1);
+
+
+//Widths
+
+$maxWidthMainPage:1200px;
+
+
+@mixin basicF() {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 
+@import '~src/sassBEM/variables.scss';
 
 
 :root {
@@ -33,16 +34,21 @@ a {
 }
 
 .active {
-    border-bottom: .5px solid rgba(4, 75, 116,1);
+   border-bottom: .5px solid $colorActive;
     // margin-bottom:-.7rem;
     font-weight:700;
     font-size:1.6rem;
-    color: rgba(4, 75, 116,1);    
+    color: $colorActive;
 }
 
 [ pageMain] {
     padding:6rem 1rem 1rem 1rem ;
     min-height:100rem;
     font-size:1.25rem;
+    max-width: $maxWidthMainPage;
+    background: rgba(243, 243, 243,1);
+    background: $backgroundMainPage;
+    margin: 0 auto;
  
 }
+

@@ -1,5 +1,7 @@
+@import '~src/sassBEM/variables.scss';
+
 [header] {
-    background:rgba(243, 243, 243,1);
+    background:$backgroundHeader;
     font-size: 1.35rem;
     position: fixed;
     width: 100vw;
@@ -9,9 +11,7 @@
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
     
     ul {
-       display:flex;
-       justify-content:center;
-       align-items:center;
+       @include basicF();
        height:4rem;
        overflow:hidden;
    }
@@ -21,7 +21,7 @@
        transition:all .2s ease-in-out;
        &:not(.active):hover {
            color:white;
-           background:rgba(4, 75, 116,1);
+           background:$backgroundHeaderHover;
        }
    }
 }
