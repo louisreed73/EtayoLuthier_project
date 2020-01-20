@@ -33,16 +33,16 @@ a {
 }
 
 .active {
-    border-bottom: .5px solid rgb(4, 75, 116);
+    border-bottom: .5px solid rgba(4, 75, 116,1);
     // margin-bottom:-.7rem;
     font-weight:700;
     font-size:1.6rem;
-    color: rgba(4, 75, 116,1)
-    
+    color: rgba(4, 75, 116,1);    
 }
 
 [ pageMain] {
-    padding:2rem;
-    min-height:42rem;
+    padding:6rem 1rem 1rem 1rem ;
+    min-height:100rem;
     font-size:1.25rem;
+ 
 }
