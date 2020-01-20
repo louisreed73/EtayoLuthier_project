@@ -1,0 +1,12 @@
+@import '~src/sassBEM/variables.scss';
+
+[pageMain] {
+    @include basicF();
+    justify-content:space-around;
+    
+
+    [bass] {
+        flex: 0 1 300px;
+        margin:0 .45rem;
+    }
+}

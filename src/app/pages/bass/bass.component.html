@@ -1,3 +1,5 @@
 <div pageMain>
-    <p>bass works!</p>
+    <div *ngFor="let bass of bassesA" bass>
+        <app-bass [bass]="bass"></app-bass>
+    </div>
 </div>

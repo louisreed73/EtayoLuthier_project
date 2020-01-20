@@ -1,0 +1,47 @@
+@import '~src/sassBEM/variables.scss';
+
+[bass] {
+    @include basicF();
+    justify-content: flex-start;
+    flex-flow:column wrap;
+    background:$backgroundGuitarsInd;
+    color:$colorGuitarsInd;    
+    margin-bottom:2rem;
+
+    .c_Bass__BoxImage {
+        flex:1;
+        height:12rem;
+        // margin-right:2rem;
+    }
+
+    .c_Bass__BoxContent{
+        flex:1 1 auto;
+        @include basicF();
+        flex-flow:column wrap;
+
+        &>* {
+            margin-bottom:1.25rem;
+           
+        }
+
+        &>:first-child {
+            font-size:1.2em;
+            font-weight:600;
+
+        }
+
+        &>:last-child {
+            margin-bottom:1.5rem;
+        }
+
+    }
+
+    img {
+        height: auto;
+    width: 100%;
+    margin-bottom:1rem;
+        // flex:none;
+    }
+
+
+}

@@ -4,6 +4,8 @@ $backgroundHeader:rgba(243, 243, 243,1);
 $backgroundHeaderHover:rgba(4, 75, 116,1);
 $backgroundMainPage:rgba(243, 243, 243,1);
 $backgroundFooter:rgba(0,0,0,1);
+$backgroundGuitarsInd:rgba(255, 255, 255,1);
+$backgroundBassesInd:rgba(255, 255, 255,1);
 // $colorBackgroundHeaderHover:green;
 
 
@@ -11,6 +13,8 @@ $backgroundFooter:rgba(0,0,0,1);
 //color variables
 
 $colorActive:rgba(4, 75, 116,1);
+$colorGuitarsInd:black;
+$colorBassesInd:black;
 
 
 // Widths
@@ -26,4 +30,5 @@ $headerMinHeight:5rem;
     display:flex;
     justify-content:center;
     align-items:center;
+    flex-flow:row wrap;
 }

@@ -11,6 +11,7 @@ import { RuteoModule } from './sharedModules/ruteo.module';
   declarations: [
     AppComponent,
 
+
   ],
   imports: [
     BrowserModule,

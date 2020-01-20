@@ -1,4 +1,7 @@
+import { ServiceGuitars } from './../../sharedServices/service-guitars';
 import { Component, OnInit } from '@angular/core';
+
+
 
 @Component({
   selector: 'app-guitars',
@@ -7,9 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GuitarsComponent implements OnInit {
 
-  constructor() { }
+  guitarsA:Object[];
+
+  constructor(private guitars:ServiceGuitars) { }
 
   ngOnInit() {
+    console.log(this.guitars.getGuitars());
+    this.guitarsA=this.guitars.getGuitars();
   }
 
 }
