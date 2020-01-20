@@ -4,6 +4,8 @@ import { FooterComponent } from './../components/footer/footer.component';
 import { HomeComponent } from './../pages/home/home.component';
 import { GuitarsComponent } from './../pages/guitars/guitars.component';
 import { BassComponent } from './../pages/bass/bass.component';
+import { ContactComponent } from './../pages/contact/contact.component';
+
 
 
 
@@ -23,6 +25,7 @@ const AppRoutes:Routes=[
   {path:"home", component:HomeComponent},
   {path:"guitars", component:GuitarsComponent},
   {path:"bass", component:BassComponent},
+  {path:"contact", component:ContactComponent},
 ]}
 ]
 
@@ -35,6 +38,8 @@ const AppRoutes:Routes=[
     HomeComponent,
     GuitarsComponent,
     BassComponent,
+    ContactComponent,
+
 
     
 
