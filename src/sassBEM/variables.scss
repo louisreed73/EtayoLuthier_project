@@ -13,9 +13,13 @@ $backgroundFooter:rgba(0,0,0,1);
 $colorActive:rgba(4, 75, 116,1);
 
 
-//Widths
+// Widths
 
 $maxWidthMainPage:1200px;
+
+
+// Heights
+$headerMinHeight:5rem;
 
 
 @mixin basicF() {

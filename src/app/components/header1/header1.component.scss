@@ -12,7 +12,7 @@
     
     ul {
        @include basicF();
-       height:4rem;
+       height:$headerMinHeight;
        overflow:hidden;
    }
    li {
