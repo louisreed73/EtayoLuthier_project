@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+li {
+    list-style:none;
+    &:focus {
+        outline:none
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: .5px solid rgb(4, 75, 116);
+    // margin-bottom:-.7rem;
+    font-weight:700;
+    font-size:1.6rem;
+    color: rgba(4, 75, 116,1)
+    
+}
+
+[ pageMain] {
+    padding:2rem;
+    min-height:300rem;
+    font-size:1.25rem;
+}

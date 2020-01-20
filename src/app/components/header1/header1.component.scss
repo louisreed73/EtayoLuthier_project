@@ -1,0 +1,15 @@
+[header] {
+    background:rgba(220, 220, 220, 0.2);
+    font-size: 1.35rem;
+    
+    ul {
+       display:flex;
+       justify-content:center;
+       align-items:center;
+       height:4rem;
+   }
+   li {
+       padding:1rem 2rem;
+       cursor:pointer;
+   }
+}
