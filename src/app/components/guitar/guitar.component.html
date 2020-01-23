@@ -1,6 +1,6 @@
 <div guitar>
-    <div class="c_Guitar__BoxImage">
-        <img src="./../../assets/images/image_1.png" alt="" srcset="">
+    <div class="c_Guitar__BoxImage" [routerLink]=" ''+guitar.id">
+        <img [src]="guitar.imagePath+guitar.images[0]" alt="" srcset="">
     </div>
     <div class="c_Guitar__BoxContent">
 

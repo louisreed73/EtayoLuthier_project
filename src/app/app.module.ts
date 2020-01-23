@@ -5,11 +5,14 @@ import { AppComponent } from './app.component';
 import { RuteoModule } from './sharedModules/ruteo.module';
 
 
+
 // RoutingModule
 
 @NgModule({
   declarations: [
     AppComponent,
+
+
 
 
   ],

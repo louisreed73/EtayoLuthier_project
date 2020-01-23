@@ -1,5 +1,10 @@
 import { ServiceGuitars } from './../../sharedServices/service-guitars';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+
+
+
+
+
 
 
 
@@ -8,15 +13,28 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './guitars.component.html',
   styleUrls: ['./guitars.component.scss']
 })
-export class GuitarsComponent implements OnInit {
+
+export class GuitarsComponent implements OnInit,OnDestroy {
+
+
 
   guitarsA:Object[];
 
   constructor(private guitars:ServiceGuitars) { }
 
   ngOnInit() {
-    console.log(this.guitars.getGuitars());
+    // console.log(this.guitars.getGuitars());
     this.guitarsA=this.guitars.getGuitars();
+
+
+
+    
+  };
+  
+  ngOnDestroy() {
+            
+
+
   }
 
 }

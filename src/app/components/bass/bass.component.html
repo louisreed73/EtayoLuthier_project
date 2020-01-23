@@ -1,6 +1,6 @@
 <div bass>
-    <div class="c_Bass__BoxImage">
-        <img src="./../../assets/images/image_1.png" alt="" srcset="">
+    <div class="c_Bass__BoxImage" [routerLink]=" ''+bass.id">
+        <img [src]="bass.imagePath+bass.images[0]" alt="" srcset="">
     </div>
     <div class="c_Bass__BoxContent">
 

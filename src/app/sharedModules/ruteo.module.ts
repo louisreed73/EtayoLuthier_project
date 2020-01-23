@@ -8,10 +8,11 @@ import { GuitarsComponent } from './../pages/guitars/guitars.component';
 import { BassesComponent } from './../pages/bass/bass.component';
 import { ContactComponent } from './../pages/contact/contact.component';
 import { GuitarComponent } from '../components/guitar/guitar.component';
+import { GuitarShowComponent } from './../pages/guitar-show/guitar-show.component';
 import { BassComponent } from './../components/bass/bass.component';
+import { BassShowComponent } from './../pages/bass-show/bass-show.component';
 
 
-BassComponent
 
 
 import { NgModule } from '@angular/core';
@@ -31,7 +32,9 @@ const AppRoutes:Routes=[
 {path:"", component:Layout1Component, children:[
   {path:"home", component:HomeComponent},
   {path:"guitars", component:GuitarsComponent},
+  {path:"guitars/:id", component:GuitarShowComponent},
   {path:"bass", component:BassesComponent},
+  {path:"bass/:id", component:BassShowComponent},
   {path:"contact", component:ContactComponent},
 ]}
 ]
@@ -48,6 +51,8 @@ const AppRoutes:Routes=[
     ContactComponent,
     GuitarComponent,
     BassComponent,
+    GuitarShowComponent,
+    BassShowComponent
 
 
 
@@ -63,7 +68,8 @@ const AppRoutes:Routes=[
   ],
   providers:[
     ServiceGuitars,
-    ServiceBasses
+    ServiceBasses,
+    
   ]
 })
 export class RuteoModule { }

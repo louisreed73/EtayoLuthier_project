@@ -11,9 +11,14 @@ export class GuitarComponent implements OnInit {
 
   constructor() { }
 
+
+
   ngOnInit() {
 
-    console.log(this.guitar)
+
+    console.log(this.guitar);
   }
 
-}
+};
+
+
