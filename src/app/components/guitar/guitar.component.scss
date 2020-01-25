@@ -3,43 +3,60 @@
 [guitar] {
     @include basicF();
     justify-content: flex-start;
-    flex-flow:column wrap;
-    background:$backgroundBassesInd;
-    color:$colorBassesInd;
-    margin-bottom:4rem;
+    flex-flow: column wrap;
+    background: $backgroundBassesInd;
+    color: $colorBassesInd;
+    margin-bottom: 4rem;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
 
-    .c_Guitar__BoxImage {
-        flex:1;
-        height:12rem;
+    .c_Guitar {
+
+        &__BoxContent {
+            flex: 1 1 auto;
+            width: 100%;
+            padding: 2rem;
+            @include basicF();
+            align-items: flex-start;
+            flex-flow: column wrap;
+            min-height: 21rem;
+    
+           *:not(.c_Guitar__Title) {
+                margin-bottom: 1.25rem;
+    
+            }
+    
+             :first-child {
+                font-size: 1.2em;
+                font-weight: 600;
+            }
+    
+            :last-child {
+                margin-bottom: 1.5rem;
+            }
+    
+        }
+
+        &__Title {
+           text-align:center;
+           margin-bottom:2rem;
+        }
+
+        &__BoxImage {
+            flex: 1;
+            height: 12rem;
+        }
+        
+        
     }
-
-    .c_Guitar__BoxContent{
-        flex:1 1 auto;
-        @include basicF();
-        flex-flow:column wrap;
-
-        &>* {
-            margin-bottom:1.25rem;
-           
-        }
-
-        &>:first-child {
-            font-size:1.2em;
-            font-weight:600;
-        }
-
-        &>:last-child {
-            margin-bottom:1.5rem;
-        }
-
-    }
-
+    
+    
     img {
         height: auto;
-    width: 100%;
-    margin-bottom:1rem;
+        width: auto;
+        max-width:100%;
+        margin-bottom: 1rem;
+        cursor:pointer;
         // flex:none;
     }
-
 
 }

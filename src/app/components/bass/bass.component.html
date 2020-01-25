@@ -1,13 +1,13 @@
 <div bass>
     <div class="c_Bass__BoxImage" [routerLink]=" ''+bass.id">
-        <img [src]="bass.imagePath+bass.images[0]" alt="" srcset="">
+        <img [src]="bass.imagePath+bass.imageList" alt="" srcset="">
     </div>
     <div class="c_Bass__BoxContent">
 
         <p class="c_Bass__Title">{{bass.name}}</p>
-        <p class="c_Bass__Price">{{bass.price}}</p>
-        <p class="c_Bass__Title">{{bass.woodType}}</p>
-        <p class="c_Bass__Title">{{bass.clavijeroType}}</p>
+        <p class="c_Bass__Price">{{bass.tipo}}</p>
+        <p class="c_Bass__woodTapa">{{bass.woodTapa}}</p>
+        <p class="c_Bass__woodCuerpo">{{bass.woodCuerpo}}</p>
     </div>
 </div>
 
