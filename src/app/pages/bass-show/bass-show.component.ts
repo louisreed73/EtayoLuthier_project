@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class BassShowComponent implements OnInit {
   id:number;
   basses:any[];
-  bass:{};
+  bass:any;
 
   constructor(public servicioBasses:ServiceBasses,public router:ActivatedRoute) { }
 

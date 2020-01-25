@@ -18,7 +18,7 @@ export class GuitarShowComponent implements OnInit {
 
   id:number;
   guitarras:any[];
-  guitarra:{};
+  guitarra:any;
 
   constructor(public servicioGuitars:ServiceGuitars,public router:ActivatedRoute) { }
 
