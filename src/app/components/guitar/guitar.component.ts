@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class GuitarComponent implements OnInit {
 
-  @Input() guitar:object;
+  @Input() guitar:any;
 
   constructor() { }
 
