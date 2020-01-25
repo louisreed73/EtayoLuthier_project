@@ -32,9 +32,9 @@ const AppRoutes:Routes=[
 {path:"", component:Layout1Component, children:[
   {path:"home", component:HomeComponent},
   {path:"guitars", component:GuitarsComponent},
-  {path:"guitars/:id", component:GuitarShowComponent},
+  {path:"guitars/:name", component:GuitarShowComponent},
   {path:"bass", component:BassesComponent},
-  {path:"bass/:id", component:BassShowComponent},
+  {path:"bass/:name", component:BassShowComponent},
   {path:"contact", component:ContactComponent},
 ]}
 ]

@@ -16,7 +16,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class GuitarShowComponent implements OnInit {
 
-  id:number;
+  name:string;
   guitarras:any[];
   guitarra:any;
 
@@ -25,11 +25,11 @@ export class GuitarShowComponent implements OnInit {
   ngOnInit() {
 
     // console.log(+this.router.snapshot.params.id);
-    this.id=+this.router.snapshot.params.id;
+    this.name=this.router.snapshot.params.name;
     // console.log(this.servicioGuitars.getGuitars());
     this.guitarras=this.servicioGuitars.getGuitars();
     let _guitarra=this.guitarras.filter(elem=>{
-      return elem.id===this.id;
+      return elem.name===this.name;
     })
 
     this.guitarra=_guitarra[0]
