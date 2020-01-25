@@ -18,6 +18,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background: url(./assets/images/backgrounds/dot-grid.png);
+
 
 
 }
@@ -42,16 +44,49 @@ a {
 }
 
 [ pageMain] {
-    padding:#{$headerMinHeight + 4} 1rem 1rem 1rem ;
+    padding:#{$headerMinHeight + 5} 2rem 1rem 2rem ;
     font-size:1.25rem;
     max-width: $maxWidthMainPage;
-    background: rgba(243, 243, 243,1);
-    background: $backgroundMainPage;
+    // background: rgba(243, 243, 243,1);
+    background: url(./assets/images/backgrounds/dot-grid.png);
+    background-position: -3.8px 0px;
+    background-color: $backgroundMainPage;
+    background-blend-mode: overlay;
     margin: 0 auto;
  
+}
+[ pageMain-show] {
+  padding:#{$headerMinHeight + 1.5} 2rem 2rem 2rem;
 }
 
 .americana {
     background:lightblue;
     padding:2rem 3rem;
+}
+
+.guitarra {
+    background:rgb(0, 48, 56);
+}
+
+.bajo {
+    background:rgba(33, 17, 0,1)
+}
+
+.volver {
+  cursor: pointer;
+  color: rgba(17, 89, 101, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size:1.05em;
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+
+  &Flecha {
+          display: inline-block;
+          margin-right: 5px;
+          font-size: 1.4em;
+          }
+  
 }

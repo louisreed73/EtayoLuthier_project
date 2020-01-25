@@ -11,6 +11,8 @@ import { GuitarComponent } from '../components/guitar/guitar.component';
 import { GuitarShowComponent } from './../pages/guitar-show/guitar-show.component';
 import { BassComponent } from './../components/bass/bass.component';
 import { BassShowComponent } from './../pages/bass-show/bass-show.component';
+import { InstrumentShowHeadingComponent } from "../components/instrumen-show-heading/instrument-show-heading.component";
+
 
 
 
@@ -52,24 +54,11 @@ const AppRoutes:Routes=[
     GuitarComponent,
     BassComponent,
     GuitarShowComponent,
-    BassShowComponent
-
-
-
-    
-
+    BassShowComponent,
+    InstrumentShowHeadingComponent
   ],
-  imports: [
-    CommonModule,
-    RouterModule.forRoot(AppRoutes)
-  ],
-  exports:[
-    RouterModule
-  ],
-  providers:[
-    ServiceGuitars,
-    ServiceBasses,
-    
-  ]
+  imports: [CommonModule, RouterModule.forRoot(AppRoutes)],
+  exports: [RouterModule],
+  providers: [ServiceGuitars, ServiceBasses]
 })
-export class RuteoModule { }
+export class RuteoModule {}

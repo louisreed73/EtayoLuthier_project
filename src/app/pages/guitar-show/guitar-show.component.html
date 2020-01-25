@@ -1,5 +1,4 @@
-<div pageMain>
-    <p class="volver"[routerLink]=" './../' ">Volver</p>
-    <img [src]="guitarra.imagePath+guitarra.imageShowR" alt="" srcset="">
-    <p>guitar-show works! {{guitarra.name}}</p>
+<div pageMain pageMain-show>
+  <p class="volver" [routerLink]=" './../' "><span class="volverFlecha">&#8592;&nbsp;</span>Guitarras</p>
+    <app-instrument-show-heading [instrument]="guitarra"></app-instrument-show-heading>
 </div>

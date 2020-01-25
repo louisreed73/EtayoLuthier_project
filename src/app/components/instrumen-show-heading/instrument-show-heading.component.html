@@ -1,0 +1,7 @@
+<div class="c_instrumentoShowHeading">
+    <p class="c_instrumentoShowHeading__Title">{{instrument.name}}</p>
+    <div class="c_instrumentoShowHeading__imgBox"      [ngClass]="{guitarra:instrument.instrumento==='guitarra' ,bajo:instrument.instrumento==='bajo' }">
+        <img class="c_instrumentoShowHeading__img" [src]="instrument.imagePath+instrument.imageShowR" alt="" srcset="">
+    </div>
+</div>
+

@@ -44,6 +44,10 @@
         &__BoxImage {
             flex: 1;
             height: 12rem;
+                &:active,
+                &:focus {
+                  outline: none;
+                }
         }
         
         

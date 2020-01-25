@@ -2,6 +2,7 @@ export class ServiceBasses {
          private readonly basses: object[] = [
            {
              id: 0,
+             instrumento:"bajo",
              name: "Bajo Etayo",
              tipo: "Bajo eléctrico sólido de 35 pulgadas",
              woodTapa: "Tapa de madera de raíz de Roble",
@@ -24,6 +25,7 @@ export class ServiceBasses {
            },
            {
              id: 1,
+             instrumento:"bajo",
              name: "Bajo Etayo Supersonic",
              tipo: "Bajo eléctrico semisólido de 35 pulgadas",
              woodTapa: "Tapa de madera de Cebrano",
@@ -46,6 +48,7 @@ export class ServiceBasses {
            },
            {
              id: 2,
+             instrumento:"bajo",
              name: "Bajo Etayo Jazz-Funk",
              tipo:
                "Bajo eléctrico semisólido de escala a 34 pulgadas y 5 cuerdas",
@@ -69,6 +72,7 @@ export class ServiceBasses {
            },
            {
              id: 3,
+             instrumento:"bajo",
              name: "Bajo Etayo LEHD",
              tipo: "Bajo eléctrico escala de 34 pulgadas y 4 cuerdas",
              woodTapa: "Cuerpo de madera de Aliso",
@@ -96,6 +100,7 @@ export class ServiceBasses {
            },
            {
              id: 4,
+             instrumento:"bajo",
              name: "XXX",
              tipo: "XXXXX",
              woodTapa: "XXXXXX",
@@ -117,6 +122,7 @@ export class ServiceBasses {
            },
            {
              id: 5,
+             instrumento:"bajo",
              name: "XXX",
              tipo: "XXXXX",
              woodTapa: "XXXXXX",

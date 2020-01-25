@@ -2,6 +2,7 @@ export class ServiceGuitars {
          private readonly guitars: object[] = [
            {
              id: 0,
+             instrumento:"guitarra",
              name: "Guitarra Etayo Underground",
              tipo: "Guitarra eléctrica sólida",
              woodTapa: "Tapa de madera precompuesta Cebra",
@@ -22,6 +23,7 @@ export class ServiceGuitars {
            },
            {
              id: 1,
+             instrumento:"guitarra",
              name: "Guitarra Etayo Deluxe Vintage",
              tipo: "Guitarra eléctrica semisólida",
              woodTapa: "Tapa de madera de Palo Rojo",
@@ -43,6 +45,7 @@ export class ServiceGuitars {
            },
            {
              id: 2,
+             instrumento:"guitarra",
              name: "Guitarra Etayo Lucy Deluxe",
              tipo: "Guitarra eléctrica semisólida",
              woodTapa:
@@ -73,6 +76,7 @@ export class ServiceGuitars {
            },
            {
              id: 3,
+             instrumento:"guitarra",
              name: "Guitarra Etayo MEHD",
              tipo: "Guitarra eléctrica de diseño ergonómico",
              woodTapa:
@@ -94,6 +98,7 @@ export class ServiceGuitars {
            },
            {
              id: 4,
+             instrumento:"guitarra",
              name: "Guitarra Etayo Klein",
              tipo: "Guitarra eléctrica de diseño ergonómico",
              woodTapa: "Tapa de madera de Fresno",
@@ -117,6 +122,7 @@ export class ServiceGuitars {
            },
            {
              id: 5,
+             instrumento:"guitarra",
              name: "XXX",
              tipo: "XXX",
              woodTapa: "XXX",
