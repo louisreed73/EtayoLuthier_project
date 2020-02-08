@@ -21,7 +21,36 @@ export class ServiceBasses {
                "Bass1_Foto8_Comp20-1440x960.jpg"
              ],
              imageList: "Bass1_Foto1_Comp20-1440x960.jpg",
-             imageShowR: "Bass1_Foto5_Comp20-1440x960.jpg"
+             imageShowR: "Bass1_Foto5_Comp20-1440x960.jpg",
+              chars:
+             {
+               Basschar1:
+                 ["Caracteristica1 _subcaracteristica1",
+                   "Caracteristica1 _subcaracteristica2",
+                   "Caracteristica1 _subcaracteristica3",
+                   "Caracteristica1 _subcaracteristica4"
+                 ],
+               Basschar2:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3",
+                   "Caracteristica4 _subcaracteristica4"
+
+                 ],
+               Basschar3:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3",
+                   "Caracteristica4 _subcaracteristica4"
+                 ],
+               Basschar4:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3"
+
+                 ]
+             }
+
            },
            {
              id: 1,
@@ -44,7 +73,35 @@ export class ServiceBasses {
                "Bass2_Foto8_Comp20-1440x960.jpg"
              ],
              imageList: "Bass2_Foto1_Comp20-1440x960.jpg",
-             imageShowR: "Bass2_Foto7_Comp20-1440x960.jpg"
+             imageShowR: "Bass2_Foto7_Comp20-1440x960.jpg",
+             chars:
+             {
+               Basschar1:
+                 ["Caracteristica1 _subcaracteristica1",
+                   "Caracteristica1 _subcaracteristica2",
+                   "Caracteristica1 _subcaracteristica3",
+                   "Caracteristica1 _subcaracteristica4"
+                 ],
+               Basschar2:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3",
+                   "Caracteristica4 _subcaracteristica4"
+
+                 ],
+               Basschar3:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3",
+                   "Caracteristica4 _subcaracteristica4"
+                 ],
+               Basschar4:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3"
+
+                 ]
+             }
            },
            {
              id: 2,
@@ -68,7 +125,35 @@ export class ServiceBasses {
                "Bass3_Foto8_Comp20-1440x960.jpg"
              ],
              imageList: "Bass3_Foto1_Comp20-1440x960.jpg",
-             imageShowR: "Bass3_Foto8_Comp20-1440x960.jpg"
+             imageShowR: "Bass3_Foto8_Comp20-1440x960.jpg",
+             chars:
+             {
+               Basschar1:
+                 ["Caracteristica1 _subcaracteristica1",
+                   "Caracteristica1 _subcaracteristica2",
+                   "Caracteristica1 _subcaracteristica3",
+                   "Caracteristica1 _subcaracteristica4"
+                 ],
+               Basschar2:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3",
+                   "Caracteristica4 _subcaracteristica4"
+
+                 ],
+               Basschar3:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3",
+                   "Caracteristica4 _subcaracteristica4"
+                 ],
+               Basschar4:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3"
+
+                 ]
+             }
            },
            {
              id: 3,
@@ -96,7 +181,35 @@ export class ServiceBasses {
                "Bass4_Foto14_Comp20-1440x960.jpg"
              ],
              imageList: "Bass4_Foto1_Comp20-1440x960.jpg",
-             imageShowR: "Bass4_Foto14_Comp20-1440x960.jpg"
+             imageShowR: "Bass4_Foto14_Comp20-1440x960.jpg",
+             chars:
+             {
+               Basschar1:
+                 ["Caracteristica1 _subcaracteristica1",
+                   "Caracteristica1 _subcaracteristica2",
+                   "Caracteristica1 _subcaracteristica3",
+                   "Caracteristica1 _subcaracteristica4"
+                 ],
+               Basschar2:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3",
+                   "Caracteristica4 _subcaracteristica4"
+
+                 ],
+               Basschar3:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3",
+                   "Caracteristica4 _subcaracteristica4"
+                 ],
+               Basschar4:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3"
+
+                 ]
+             }
            },
            {
              id: 4,
@@ -118,7 +231,35 @@ export class ServiceBasses {
                "Bass1_Foto8_Comp20-1440x960.jpg"
              ],
              imageList: "Bass1_Foto1_Comp20-1440x960.jpg",
-             imageShowR: "Bass1_Foto5_Comp20-1440x960.jpg"
+             imageShowR: "Bass1_Foto5_Comp20-1440x960.jpg",
+             chars:
+             {
+               Basschar1:
+                 ["Caracteristica1 _subcaracteristica1",
+                   "Caracteristica1 _subcaracteristica2",
+                   "Caracteristica1 _subcaracteristica3",
+                   "Caracteristica1 _subcaracteristica4"
+                 ],
+               Basschar2:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3",
+                   "Caracteristica4 _subcaracteristica4"
+
+                 ],
+               Basschar3:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3",
+                   "Caracteristica4 _subcaracteristica4"
+                 ],
+               Basschar4:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3"
+
+                 ]
+             }
            },
            {
              id: 5,
@@ -140,7 +281,35 @@ export class ServiceBasses {
                "Bass1_Foto8_Comp20-1440x960.jpg"
              ],
              imageList: "Bass1_Foto1_Comp20-1440x960.jpg",
-             imageShowR: "Bass1_Foto5_Comp20-1440x960.jpg"
+             imageShowR: "Bass1_Foto5_Comp20-1440x960.jpg",
+             chars:
+             {
+               Basschar1:
+                 ["Caracteristica1 _subcaracteristica1",
+                   "Caracteristica1 _subcaracteristica2",
+                   "Caracteristica1 _subcaracteristica3",
+                   "Caracteristica1 _subcaracteristica4"
+                 ],
+               Basschar2:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3",
+                   "Caracteristica4 _subcaracteristica4"
+
+                 ],
+               Basschar3:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3",
+                   "Caracteristica4 _subcaracteristica4"
+                 ],
+               Basschar4:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3"
+
+                 ]
+             }
            }
          ];
 

@@ -1,0 +1,64 @@
+@import '~src/sassBEM/variables.scss';
+
+[instChars] {
+    background:white;
+    padding:1rem;
+    .active {
+            border-bottom: 0.5px solid #044b74;
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: #044b74;
+    }
+}
+
+._instChars {
+    &__Tabs {
+        @include basicF();
+        justify-content:space-around;
+        font-size:.9em;
+
+
+        &__Title1,
+        &__Title2,
+        &__Title3,
+        &__Title4
+        {
+            // color:red;
+                padding: 0.6rem 1.7rem;
+            cursor:pointer;
+        }
+
+    }
+
+    &__Content {
+        position:relative;
+        padding:2rem 1rem 1rem 1rem;
+        min-height:21rem;
+
+        &_1,
+        &_2,
+        &_3,
+        &_4
+         {
+            position:absolute;
+            top:1rem;
+            left:0rem;
+            max-width: calc(100vw - 6rem);
+            opacity:0;
+            transition: opacity .25s ease-in-out;
+            * {
+                margin: 1.5rem auto;
+                width:100%;
+            }
+        }
+        .activeContent {
+            opacity:1;
+
+        }
+    }
+    
+
+
+
+
+}

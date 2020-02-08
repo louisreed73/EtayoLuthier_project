@@ -19,7 +19,36 @@ export class ServiceGuitars {
                "Guit1_Foto7_Comp20-1024x682.jpg"
              ],
              imageList: "Guit1_Foto1_Comp20-1024x682.jpg",
-             imageShowR: "Guit1_Foto3_Comp20-1024x682.jpg"
+             imageShowR: "Guit1_Foto3_Comp20-1024x682.jpg",
+             chars:
+               {
+                 Guitchar1:
+                 ["Caracteristica1 _subcaracteristica1",
+                  "Caracteristica1 _subcaracteristica2",
+                  "Caracteristica1 _subcaracteristica3",
+                  "Caracteristica1 _subcaracteristica4"
+                ],
+                 Guitchar2:
+                 ["Caracteristica1 _subcaracteristica1",
+                  "Caracteristica1 _subcaracteristica2",
+                  "Caracteristica1 _subcaracteristica3",
+                  "Caracteristica1 _subcaracteristica4"
+   
+                ],
+                 Guitchar3:
+                 ["Caracteristica2 _subcaracteristica1",
+                  "Caracteristica2 _subcaracteristica2",
+                  "Caracteristica3 _subcaracteristica3",
+                  "Caracteristica4 _subcaracteristica4"
+                ],
+                 Guitchar4:
+                 ["Caracteristica2 _subcaracteristica1",
+                  "Caracteristica2 _subcaracteristica2",
+                  "Caracteristica3 _subcaracteristica3"
+            
+                ]
+               }
+             
            },
            {
              id: 1,
@@ -41,7 +70,35 @@ export class ServiceGuitars {
                "Guit2_Foto8_Comp20-1024x682.jpg"
              ],
              imageList: "Guit2_Foto1_Comp20-1024x682.jpg",
-             imageShowR: "Guit2_Foto8_Comp20-1024x682.jpg"
+             imageShowR: "Guit2_Foto8_Comp20-1024x682.jpg",
+             chars:
+             {
+               Guitchar1:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica2 _subcaracteristica3",
+                   "Caracteristica2 _subcaracteristica4"
+                 ],
+               Guitchar2:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica  _subcaracteristica2",
+                   "Caracteristica  _subcaracteristica3",
+                   "Caracteristica  _subcaracteristica4"
+
+                 ],
+               Guitchar3:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3",
+                   "Caracteristica4 _subcaracteristica4"
+                 ],
+               Guitchar4:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3"
+
+                 ]
+             }
            },
            {
              id: 2,
@@ -72,7 +129,35 @@ export class ServiceGuitars {
                "Guit3_Foto16_Comp20-1024x682.jpg"
              ],
              imageList: "Guit3_Foto1_Comp20-1024x682.jpg",
-             imageShowR: "Guit3_Foto4_Comp20-1024x682.jpg"
+             imageShowR: "Guit3_Foto4_Comp20-1024x682.jpg",
+             chars:
+             {
+               Guitchar1:
+                 ["Caracteristica1 _subcaracteristica1",
+                   "Caracteristica1 _subcaracteristica2",
+                   "Caracteristica1 _subcaracteristica3",
+                   "Caracteristica1 _subcaracteristica4"
+                 ],
+               Guitchar2:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3",
+                   "Caracteristica4 _subcaracteristica4"
+
+                 ],
+               Guitchar3:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3",
+                   "Caracteristica4 _subcaracteristica4"
+                 ],
+               Guitchar4:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3"
+
+                 ]
+             }
            },
            {
              id: 3,
@@ -118,7 +203,35 @@ export class ServiceGuitars {
                "Guit5_Foto10_Comp20-938X1250.jpg"
              ],
              imageList: "Guit5_Foto1_Comp20-570x380.jpg",
-             imageShowR: "Guit5_Foto7_Comp20-1374x933.jpeg"
+             imageShowR: "Guit5_Foto7_Comp20-1374x933.jpeg",
+             chars:
+             {
+               Guitchar1:
+                 ["Caracteristica1 _subcaracteristica1",
+                   "Caracteristica1 _subcaracteristica2",
+                   "Caracteristica1 _subcaracteristica3",
+                   "Caracteristica1 _subcaracteristica4"
+                 ],
+               Guitchar2:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3",
+                   "Caracteristica4 _subcaracteristica4"
+
+                 ],
+               Guitchar3:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3",
+                   "Caracteristica4 _subcaracteristica4"
+                 ],
+               Guitchar4:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3"
+
+                 ]
+             }
            },
            {
              id: 5,
@@ -140,7 +253,35 @@ export class ServiceGuitars {
                "Guit2_Foto8_Comp20-1024x682.jpg"
              ],
              imageList: "Guit2_Foto1_Comp20-1024x682.jpg",
-             imageShowR: "Guit2_Foto8_Comp20-1024x682.jpg"
+             imageShowR: "Guit2_Foto8_Comp20-1024x682.jpg",
+             chars:
+             {
+               Guitchar1:
+                 ["Caracteristica1 _subcaracteristica1",
+                   "Caracteristica1 _subcaracteristica2",
+                   "Caracteristica1 _subcaracteristica3",
+                   "Caracteristica1 _subcaracteristica4"
+                 ],
+               Guitchar2:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3",
+                   "Caracteristica4 _subcaracteristica4"
+
+                 ],
+               Guitchar3:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3",
+                   "Caracteristica4 _subcaracteristica4"
+                 ],
+               Guitchar4:
+                 ["Caracteristica2 _subcaracteristica1",
+                   "Caracteristica2 _subcaracteristica2",
+                   "Caracteristica3 _subcaracteristica3"
+
+                 ]
+             }
            }
          ];
 

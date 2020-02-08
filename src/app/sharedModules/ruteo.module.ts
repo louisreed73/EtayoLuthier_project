@@ -12,6 +12,8 @@ import { GuitarShowComponent } from './../pages/guitar-show/guitar-show.componen
 import { BassComponent } from './../components/bass/bass.component';
 import { BassShowComponent } from './../pages/bass-show/bass-show.component';
 import { InstrumentShowHeadingComponent } from "../components/instrumen-show-heading/instrument-show-heading.component";
+import { InstrumentShowCharsComponent } from '../components/instrument-show-chars/instrument-show-chars.component';
+
 
 
 
@@ -55,7 +57,9 @@ const AppRoutes:Routes=[
     BassComponent,
     GuitarShowComponent,
     BassShowComponent,
-    InstrumentShowHeadingComponent
+    InstrumentShowHeadingComponent,
+    InstrumentShowCharsComponent
+
   ],
   imports: [CommonModule, RouterModule.forRoot(AppRoutes)],
   exports: [RouterModule],
