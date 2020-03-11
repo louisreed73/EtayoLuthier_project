@@ -1,4 +1,3 @@
-import { GuitarKleinShowComponent } from './../pages/guitar-showKlein/guitar-show.component';
 import { GuitarsKleinComponent } from './../pages/guitars-klein/guitars-klein.component';
 import { ServiceGuitars } from './../sharedServices/service-guitars';
 import { ServiceGuitarsKlein } from './../sharedServices/service-guitarsKlein';
@@ -12,6 +11,7 @@ import { BassesComponent } from './../pages/bass/bass.component';
 import { ContactComponent } from './../pages/contact/contact.component';
 import { GuitarComponent } from '../components/guitar/guitar.component';
 import { GuitarShowComponent } from './../pages/guitar-show/guitar-show.component';
+import { GuitarKleinShowComponent } from '../pages/guitarKlein-show/guitarKlein-show.component';
 import { BassComponent } from './../components/bass/bass.component';
 import { BassShowComponent } from './../pages/bass-show/bass-show.component';
 import { InstrumentShowHeadingComponent } from "../components/instrumen-show-heading/instrument-show-heading.component";
