@@ -17,6 +17,7 @@
         width: 100%;
         padding: 2rem;
         @include basicF();
+         justify-content:flex-start;
         align-items: flex-start;
         flex-flow: column wrap;
         min-height: 24.1rem;

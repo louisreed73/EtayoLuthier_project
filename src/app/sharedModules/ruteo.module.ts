@@ -1,6 +1,8 @@
 import { GuitarsKleinComponent } from './../pages/guitars-klein/guitars-klein.component';
+import { GuitarsVentaComponent } from './../pages/guitars-venta/guitars-venta.component'
 import { ServiceGuitars } from './../sharedServices/service-guitars';
 import { ServiceGuitarsKlein } from './../sharedServices/service-guitarsKlein';
+import { ServiceGuitarsVenta } from './../sharedServices/service-guitarsVenta';
 import { ServiceBasses} from './../sharedServices/service-basses';
 import { Layout1Component } from './../layouts/layout1/layout1.component';
 import { Header1Component } from './../components/header1/header1.component';
@@ -12,6 +14,7 @@ import { ContactComponent } from './../pages/contact/contact.component';
 import { GuitarComponent } from '../components/guitar/guitar.component';
 import { GuitarShowComponent } from './../pages/guitar-show/guitar-show.component';
 import { GuitarKleinShowComponent } from '../pages/guitarKlein-show/guitarKlein-show.component';
+import { GuitarVentaShowComponent } from '../pages/guitarVenta-show/guitarVenta-show.component';
 import { BassComponent } from './../components/bass/bass.component';
 import { BassShowComponent } from './../pages/bass-show/bass-show.component';
 import { InstrumentShowHeadingComponent } from "../components/instrumen-show-heading/instrument-show-heading.component";
@@ -41,6 +44,8 @@ const AppRoutes:Routes=[
   {path:"guitars", component:GuitarsComponent},
   {path:"guitarsKlein", component:GuitarsKleinComponent},
   {path:"guitarsKlein/:name", component:GuitarKleinShowComponent},
+  {path:"guitarsVenta", component:GuitarsVentaComponent},
+  {path:"guitarsVenta/:name", component:GuitarVentaShowComponent},
   {path:"guitars/:name", component:GuitarShowComponent},
   {path:"bass", component:BassesComponent},
   {path:"bass/:name", component:BassShowComponent},
@@ -57,12 +62,14 @@ const AppRoutes:Routes=[
     HomeComponent,
     GuitarsComponent,
     GuitarsKleinComponent,
+    GuitarsVentaComponent,
     BassesComponent,
     ContactComponent,
     GuitarComponent,
     BassComponent,
-    GuitarKleinShowComponent,
     GuitarShowComponent,
+    GuitarKleinShowComponent,
+    GuitarVentaShowComponent,
     BassShowComponent,
     InstrumentShowHeadingComponent,
     InstrumentShowCharsComponent
@@ -70,6 +77,6 @@ const AppRoutes:Routes=[
   ],
   imports: [CommonModule, RouterModule.forRoot(AppRoutes)],
   exports: [RouterModule],
-  providers: [ServiceGuitars, ServiceGuitarsKlein, ServiceBasses]
+  providers: [ServiceGuitars, ServiceGuitarsKlein, ServiceGuitarsVenta, ServiceBasses]
 })
 export class RuteoModule {}
