@@ -45,7 +45,7 @@ a {
 }
 
 [ pageMain] {
-    padding:#{$headerMinHeight + 5} 2rem 1rem 2rem ;
+    padding:#{$headerMinHeight + 5} .5rem 1rem .5rem ;
     font-size:1.25rem;
     max-width: $maxWidthMainPage;
     // background: rgba(243, 243, 243,1);
@@ -58,6 +58,7 @@ a {
 }
 [ pageMain-show] {
   padding:#{$headerMinHeight + 1.5} 2rem 2rem 2rem;
+  max-width:100rem;
 }
 
 .americana {
@@ -78,6 +79,9 @@ a {
   color: rgba(17, 89, 101, 1);
   color: rgba(255, 255, 255, 1);
   font-size:1.05em;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  margin-top: -0.4rem;
 
   &:active,
   &:focus {
