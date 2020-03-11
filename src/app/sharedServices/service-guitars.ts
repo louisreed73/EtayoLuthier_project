@@ -3,8 +3,8 @@ export class ServiceGuitars {
            {
              id: 0,
              instrumento:"guitarra",
-             name: "Guitarra Etayo Underground",
-             tipo: "Guitarra eléctrica sólida",
+             name: "Guitarra Etayo Tipo Telecaster",
+             tipo: "Guitarra eléctrica sólida en madera de caoba y nogal.",//En pag Guitarras solo esta Caract
              woodTapa: "Tapa de madera precompuesta Cebra",
              woodCuerpo: "Cuerpo sólido de maderas de Caoba y Nogal",
              clavijeroType: "Doble arco",
@@ -22,29 +22,23 @@ export class ServiceGuitars {
              imageShowR: "Guit1_Foto3_Comp20-1024x682.jpg",
              chars:
                {
-                 Guitchar1:
-                 ["Caracteristica1 _subcaracteristica1",
-                  "Caracteristica1 _subcaracteristica2",
-                  "Caracteristica1 _subcaracteristica3",
-                  "Caracteristica1 _subcaracteristica4"
+                 Cuerpo:
+                   ["Cuerpo Sólido, en madera de caoba y nogal.",
+                  " Tapa de madera precompuesta cebra.",
                 ],
-                 Guitchar2:
-                 ["Caracteristica1 _subcaracteristica1",
-                  "Caracteristica1 _subcaracteristica2",
-                  "Caracteristica1 _subcaracteristica3",
-                  "Caracteristica1 _subcaracteristica4"
+                 Mástil:
+                   ["Neck Trough, alistonado en madera de caoba y nogal.",
+                  "Diapasón de ébano.",
+
    
                 ],
-                 Guitchar3:
-                 ["Caracteristica2 _subcaracteristica1",
-                  "Caracteristica2 _subcaracteristica2",
-                  "Caracteristica3 _subcaracteristica3",
-                  "Caracteristica4 _subcaracteristica4"
+                 Componentes:
+                   ["Puente fender telecaster.",
+                  "Clavijero Gotoh.",
+
                 ],
-                 Guitchar4:
-                 ["Caracteristica2 _subcaracteristica1",
-                  "Caracteristica2 _subcaracteristica2",
-                  "Caracteristica3 _subcaracteristica3"
+                 Pastillas:
+                   ["Pastillas Fender original Vintage tele pv.",
             
                 ]
                }
@@ -53,8 +47,8 @@ export class ServiceGuitars {
            {
              id: 1,
              instrumento:"guitarra",
-             name: "Guitarra Etayo Deluxe Vintage",
-             tipo: "Guitarra eléctrica semisólida",
+             name: "Guitarra Etayo Vintage A",
+             tipo: "Guitarra eléctrica semisólida de madera de tilo y caoba.",//En pag Guitarras solo esta Caract
              woodTapa: "Tapa de madera de Palo Rojo",
              woodCuerpo: "Cuerpo sólido de maderas de Caoba y Nogal",
              clavijeroType: "Doble arco",
@@ -73,29 +67,23 @@ export class ServiceGuitars {
              imageShowR: "Guit2_Foto8_Comp20-1024x682.jpg",
              chars:
              {
-               Guitchar1:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica2 _subcaracteristica3",
-                   "Caracteristica2 _subcaracteristica4"
-                 ],
-               Guitchar2:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica  _subcaracteristica2",
-                   "Caracteristica  _subcaracteristica3",
-                   "Caracteristica  _subcaracteristica4"
+               Cuerpo:
+                 ["Cuerpo Semisólido de madera de tilo y caoba.",
+                   "Tapa armónica de madera de palo rojo.",
 
                  ],
-               Guitchar3:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3",
-                   "Caracteristica4 _subcaracteristica4"
+               Mástil:
+                 ["Neck Trough, alistonado en madera de arce y caoba.",
+                   "Diapasón de ébano.",
+
                  ],
-               Guitchar4:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3"
+               Componentes:
+                 ["Bordonero artesanal y Puente tuneomatic.",
+                   "Clavijero Gotoh.",
+
+                 ],
+               Pastillas:
+                 ["Pastillas Humbucker gibson 490RNH.",
 
                  ]
              }
@@ -103,8 +91,8 @@ export class ServiceGuitars {
            {
              id: 2,
              instrumento:"guitarra",
-             name: "Guitarra Etayo Lucy Deluxe",
-             tipo: "Guitarra eléctrica semisólida",
+             name: "Guitarra Etayo Vintage B",
+             tipo: "Guitarra eléctrica semihueca de madera de wengue y amaranto.",//En pag Guitarras solo esta Caract
              woodTapa:
                "Tapa de madera de Amaranto y Caoba con incrustaciones en Arce",
              woodCuerpo: "Cuerpo sólido de maderas de Caoba y Nogal",
@@ -132,29 +120,24 @@ export class ServiceGuitars {
              imageShowR: "Guit3_Foto4_Comp20-1024x682.jpg",
              chars:
              {
-               Guitchar1:
-                 ["Caracteristica1 _subcaracteristica1",
-                   "Caracteristica1 _subcaracteristica2",
-                   "Caracteristica1 _subcaracteristica3",
-                   "Caracteristica1 _subcaracteristica4"
-                 ],
-               Guitchar2:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3",
-                   "Caracteristica4 _subcaracteristica4"
+               Cuerpo:
+                 ["Cuerpo Semihueco de madera de wengue y amaranto.",
+                   "Tapa armónica de amaranto y tapa fondo wengue.",
 
                  ],
-               Guitchar3:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3",
-                   "Caracteristica4 _subcaracteristica4"
+               Mástil:
+                 ["Alistonado en madera de arce y caoba.",
+                   ", diapason de wengue.",
+
                  ],
-               Guitchar4:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3"
+               Componentes:
+                 ["Puente Tuneomatic.",
+                   "Clavijero Gotoh.",
+
+                 ],
+               Pastillas:
+                 ["Pastillas Gibson 57 Classic con carcasas de madera artesanales.",
+
 
                  ]
              }
@@ -162,8 +145,8 @@ export class ServiceGuitars {
            {
              id: 3,
              instrumento:"guitarra",
-             name: "Guitarra Etayo MEHD",
-             tipo: "Guitarra eléctrica de diseño ergonómico",
+             name: "Guitarra Etayo Tipo StratoCaster",
+             tipo: "Guitarra eléctrica Sólida de diseño ergonómico de madera de aliso.",//En pag Guitarras solo esta Caract
              woodTapa:
                "Cuerpo con tapa delantera de madera de Sapely y trasera de madera de Fresno",
              woodCuerpo: "Cuerpo sólido de maderas de Caoba y Nogal",
@@ -179,110 +162,29 @@ export class ServiceGuitars {
                "Guit4_Foto7_Comp20-1024x682.jpg"
              ],
              imageList: "Guit4_Foto1_Comp20-1024x682.jpg",
-             imageShowR: "Guit4_Foto7_Comp20-1024x682.jpg"
-           },
-           {
-             id: 4,
-             instrumento:"guitarra",
-             name: "Guitarra Etayo Klein",
-             tipo: "Guitarra eléctrica de diseño ergonómico",
-             woodTapa: "Tapa de madera de Fresno",
-             woodCuerpo: "Cuerpo sólido de madera de Sapelly",
-             clavijeroType: "Doble arco",
-             imagePath: "./../../assets/images/Guitarras/Guitar_05/",
-             images: [
-               "Guit5_Foto1_Comp20-1024x682.jpg",
-               "Guit5_Foto2_Comp20-570x380.jpg",
-               "Guit5_Foto3_Comp20-938x1250.jpg",
-               "Guit5_Foto4_Comp20-938x1250.jpg",
-               "Guit5_Foto5_Comp20-938x1250.jpg",
-               "Guit5_Foto6_Comp20-938x1250.jpg",
-               "Guit5_Foto7_Comp20-1374x933.jpeg",
-               "Guit5_Foto8_Comp20-1599x1600.jpeg",
-               "Guit5_Foto9_Comp20-1250x938.jpg",
-               "Guit5_Foto10_Comp20-938X1250.jpg"
-             ],
-             imageList: "Guit5_Foto1_Comp20-570x380.jpg",
-             imageShowR: "Guit5_Foto7_Comp20-1374x933.jpeg",
+             imageShowR: "Guit4_Foto7_Comp20-1024x682.jpg",
              chars:
              {
-               Guitchar1:
-                 ["Caracteristica1 _subcaracteristica1",
-                   "Caracteristica1 _subcaracteristica2",
-                   "Caracteristica1 _subcaracteristica3",
-                   "Caracteristica1 _subcaracteristica4"
+               Cuerpo:
+                 ["Cuerpo Ergonómico Sólido de madera de aliso.",
+                   "Tapa armonica de sapely y tapa fondo de fresno.",
                  ],
-               Guitchar2:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3",
-                   "Caracteristica4 _subcaracteristica4"
+               Mástil:
+                 ["Alistonado en madera de arce y wengue.",
+                   "Diapasón de madera de ébano.",
 
                  ],
-               Guitchar3:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3",
-                   "Caracteristica4 _subcaracteristica4"
+               Componentes:
+                 ["Puente fijo stratocaster.",
+                   "Clavijero fender American Standard.",
                  ],
-               Guitchar4:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3"
+               Pastillas:
+                 ["Pastillas Gibson 57 Classic.",
 
                  ]
-             }
+                }
            },
-           {
-             id: 5,
-             instrumento:"guitarra",
-             name: "XXX",
-             tipo: "XXX",
-             woodTapa: "XXX",
-             woodCuerpo: "XXX",
-             clavijeroType: "XXX",
-             imagePath: "./../../assets/images/Guitarras/Guitar_02/",
-             images: [
-               "Guit2_Foto1_Comp20-1024x682.jpg",
-               "Guit2_Foto2_Comp20-1024x682.jpg",
-               "Guit2_Foto3_Comp20-1024x682.jpg",
-               "Guit2_Foto4_Comp20-1024x682.jpg",
-               "Guit2_Foto5_Comp20-1024x682.jpg",
-               "Guit2_Foto6_Comp20-1024x682.jpg",
-               "Guit2_Foto7_Comp20-1024x682.jpg",
-               "Guit2_Foto8_Comp20-1024x682.jpg"
-             ],
-             imageList: "Guit2_Foto1_Comp20-1024x682.jpg",
-             imageShowR: "Guit2_Foto8_Comp20-1024x682.jpg",
-             chars:
-             {
-               Guitchar1:
-                 ["Caracteristica1 _subcaracteristica1",
-                   "Caracteristica1 _subcaracteristica2",
-                   "Caracteristica1 _subcaracteristica3",
-                   "Caracteristica1 _subcaracteristica4"
-                 ],
-               Guitchar2:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3",
-                   "Caracteristica4 _subcaracteristica4"
-
-                 ],
-               Guitchar3:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3",
-                   "Caracteristica4 _subcaracteristica4"
-                 ],
-               Guitchar4:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3"
-
-                 ]
-             }
-           }
+           
          ];
 
          getGuitars() {

@@ -1,4 +1,4 @@
-import { ServiceGuitars } from './../../sharedServices/service-guitars';
+import { ServiceGuitars } from '../../sharedServices/service-guitars';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 

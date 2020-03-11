@@ -1,4 +1,7 @@
+import { GuitarKleinShowComponent } from './../pages/guitar-showKlein/guitar-show.component';
+import { GuitarsKleinComponent } from './../pages/guitars-klein/guitars-klein.component';
 import { ServiceGuitars } from './../sharedServices/service-guitars';
+import { ServiceGuitarsKlein } from './../sharedServices/service-guitarsKlein';
 import { ServiceBasses} from './../sharedServices/service-basses';
 import { Layout1Component } from './../layouts/layout1/layout1.component';
 import { Header1Component } from './../components/header1/header1.component';
@@ -36,6 +39,8 @@ const AppRoutes:Routes=[
 {path:"", component:Layout1Component, children:[
   {path:"home", component:HomeComponent},
   {path:"guitars", component:GuitarsComponent},
+  {path:"guitarsKlein", component:GuitarsKleinComponent},
+  {path:"guitarsKlein/:name", component:GuitarKleinShowComponent},
   {path:"guitars/:name", component:GuitarShowComponent},
   {path:"bass", component:BassesComponent},
   {path:"bass/:name", component:BassShowComponent},
@@ -51,10 +56,12 @@ const AppRoutes:Routes=[
     FooterComponent,
     HomeComponent,
     GuitarsComponent,
+    GuitarsKleinComponent,
     BassesComponent,
     ContactComponent,
     GuitarComponent,
     BassComponent,
+    GuitarKleinShowComponent,
     GuitarShowComponent,
     BassShowComponent,
     InstrumentShowHeadingComponent,
@@ -63,6 +70,6 @@ const AppRoutes:Routes=[
   ],
   imports: [CommonModule, RouterModule.forRoot(AppRoutes)],
   exports: [RouterModule],
-  providers: [ServiceGuitars, ServiceBasses]
+  providers: [ServiceGuitars, ServiceGuitarsKlein, ServiceBasses]
 })
 export class RuteoModule {}
