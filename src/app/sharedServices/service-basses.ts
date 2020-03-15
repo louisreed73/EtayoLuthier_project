@@ -3,8 +3,8 @@ export class ServiceBasses {
            {
              id: 0,
              instrumento:"bajo",
-             name: "Bajo Etayo",
-             tipo: "Bajo eléctrico sólido de 35 pulgadas",
+             name: "Bajo Etayo Activo de 4 cuerdas",
+             tipo: "Bajo eléctrico Sólido en madera de fresno.",// En pag Bass solo esta Caract
              woodTapa: "Tapa de madera de raíz de Roble",
              woodCuerpo:
                "Cuerpo sólido de madera de Fresno  y Tapa trasera de madera de Tilo",
@@ -24,29 +24,23 @@ export class ServiceBasses {
              imageShowR: "Bass1_Foto5_Comp20-1440x960.jpg",
               chars:
              {
-               Basschar1:
-                 ["Caracteristica1 _subcaracteristica1",
-                   "Caracteristica1 _subcaracteristica2",
-                   "Caracteristica1 _subcaracteristica3",
-                   "Caracteristica1 _subcaracteristica4"
+               Cuerpo:
+                 ["Cuerpo sólido en madera de Fresno.",
+                   "Tapa armónica de raíz de roble.",
+                   "Tapa fondo de tilo.",
                  ],
-               Basschar2:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3",
-                   "Caracteristica4 _subcaracteristica4"
+               Mástil:
+                 ["Neck Trough alistonado en madera de caoba.",
+                   "Diapasón de ébano.",
 
                  ],
-               Basschar3:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3",
-                   "Caracteristica4 _subcaracteristica4"
+               Componentes:
+                 ["Puente Gotoh.",
+                   "Clavijero Gotoh con adornos hueso.",
                  ],
-               Basschar4:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3"
+               Pastillas:
+                 ["Seymour Duncan AJB-5N Active.",
+
 
                  ]
              }
@@ -55,8 +49,8 @@ export class ServiceBasses {
            {
              id: 1,
              instrumento:"bajo",
-             name: "Bajo Etayo Supersonic",
-             tipo: "Bajo eléctrico semisólido de 35 pulgadas",
+             name: "Bajo Etayo Ergonómico",
+             tipo: "Bajo eléctrico sólido en madera de fresno.",// En pag Bass solo esta Caract
              woodTapa: "Tapa de madera de Cebrano",
              woodCuerpo: "Cuerpo de madera de Fresno, Amaranto y Olmo spalted",
              woodType: "Alce",
@@ -76,29 +70,24 @@ export class ServiceBasses {
              imageShowR: "Bass2_Foto7_Comp20-1440x960.jpg",
              chars:
              {
-               Basschar1:
-                 ["Caracteristica1 _subcaracteristica1",
-                   "Caracteristica1 _subcaracteristica2",
-                   "Caracteristica1 _subcaracteristica3",
-                   "Caracteristica1 _subcaracteristica4"
-                 ],
-               Basschar2:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3",
-                   "Caracteristica4 _subcaracteristica4"
+               Cuerpo:
+                 ["Cuerpo sólido en madera de fresno.",
+                   "Tapa armónica de cebrano.",
+                   "Tapa fondo de olmo spalted.",
 
                  ],
-               Basschar3:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3",
-                   "Caracteristica4 _subcaracteristica4"
+               Mástil:
+                 ["Neck Trough alistonado en madera de arce, amaranto y cedro.",
+                   "Diapasón de ébano.",
+
                  ],
-               Basschar4:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3"
+               Componentes:
+                 ["Puente monorail.",
+                   "Clavijero Warwick.",
+
+                 ],
+               Pastillas:
+                 ["Pastillas: Fender Jazz bass.",
 
                  ]
              }
@@ -108,7 +97,7 @@ export class ServiceBasses {
              instrumento:"bajo",
              name: "Bajo Etayo Jazz-Funk",
              tipo:
-               "Bajo eléctrico semisólido de escala a 34 pulgadas y 5 cuerdas",
+               "Bajo eléctrico Sólido de escala a 34 pulgadas y 5 cuerdas en madera de fresno.",// En pag Bass solo esta Caract
              woodTapa: "Tapa del cuerpo de madera de Arce Spalted",
              woodCuerpo:
                "Cuerpo de madera de Fresno y tapa trasera de madera de Cebrano",
@@ -128,29 +117,25 @@ export class ServiceBasses {
              imageShowR: "Bass3_Foto8_Comp20-1440x960.jpg",
              chars:
              {
-               Basschar1:
-                 ["Caracteristica1 _subcaracteristica1",
-                   "Caracteristica1 _subcaracteristica2",
-                   "Caracteristica1 _subcaracteristica3",
-                   "Caracteristica1 _subcaracteristica4"
-                 ],
-               Basschar2:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3",
-                   "Caracteristica4 _subcaracteristica4"
+               Cuerpo:
+                 ["Cuerpo sólido en madera de fresno.",
+                   "Tapa armónica de arce spalted.",
+                   "tapa fondo de cebrano.",
 
                  ],
-               Basschar3:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3",
-                   "Caracteristica4 _subcaracteristica4"
+               Mástil:
+                 ["Mástil encolado al cuerpo, de madera de race y amaranto.",
+                   "Diapasón de arce.",
+
                  ],
-               Basschar4:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3"
+               Componentes:
+                 ["Puente artesanal a medida.",
+                   "Clavijero Warwick.",
+
+                 ],
+               Pastillas:
+                 ["Pastillas Fender noiseless Gen4 Jazz Bass.",
+
 
                  ]
              }
@@ -158,8 +143,8 @@ export class ServiceBasses {
            {
              id: 3,
              instrumento:"bajo",
-             name: "Bajo Etayo LEHD",
-             tipo: "Bajo eléctrico escala de 34 pulgadas y 4 cuerdas",
+             name: "Bajo Etayo peso ligero",
+             tipo: "Bajo eléctrico sólido en madera de Aliso y Caoba.",// En pag Bass solo esta Caract
              woodTapa: "Cuerpo de madera de Aliso",
              woodCuerpo: "Mástil alistonado en madera de Wengue y Arce",
              clavijeroType: "XXXXXXXXXX",
@@ -184,133 +169,26 @@ export class ServiceBasses {
              imageShowR: "Bass4_Foto14_Comp20-1440x960.jpg",
              chars:
              {
-               Basschar1:
-                 ["Caracteristica1 _subcaracteristica1",
-                   "Caracteristica1 _subcaracteristica2",
-                   "Caracteristica1 _subcaracteristica3",
-                   "Caracteristica1 _subcaracteristica4"
-                 ],
-               Basschar2:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3",
-                   "Caracteristica4 _subcaracteristica4"
+               Cuerpo:
+                 ["Cuerpo Sólido en madera de aliso y caoba.",
 
                  ],
-               Basschar3:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3",
-                   "Caracteristica4 _subcaracteristica4"
+               Mástil:
+                 ["Mástil en madera de  wengue",
+                   "Diapasón de arce.",
                  ],
-               Basschar4:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3"
-
-                 ]
-             }
-           },
-           {
-             id: 4,
-             instrumento:"bajo",
-             name: "XXX",
-             tipo: "XXXXX",
-             woodTapa: "XXXXXX",
-             woodCuerpo: "XXXXXX",
-             clavijeroType: "XXXXXXXXXX",
-             imagePath: "./../../assets/images/Bajos/Bass_01/",
-             images: [
-               "Bass1_Foto1_Comp20-1440x960.jpg",
-               "Bass1_Foto2_Comp20-1440x960.jpg",
-               "Bass1_Foto3_Comp20-1440x960.jpg",
-               "Bass1_Foto4_Comp20-1440x960.jpg",
-               "Bass1_Foto5_Comp20-1440x960.jpg",
-               "Bass1_Foto6_Comp20-1440x960.jpg",
-               "Bass1_Foto7_Comp20-1440x960.jpg",
-               "Bass1_Foto8_Comp20-1440x960.jpg"
-             ],
-             imageList: "Bass1_Foto1_Comp20-1440x960.jpg",
-             imageShowR: "Bass1_Foto5_Comp20-1440x960.jpg",
-             chars:
-             {
-               Basschar1:
-                 ["Caracteristica1 _subcaracteristica1",
-                   "Caracteristica1 _subcaracteristica2",
-                   "Caracteristica1 _subcaracteristica3",
-                   "Caracteristica1 _subcaracteristica4"
-                 ],
-               Basschar2:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3",
-                   "Caracteristica4 _subcaracteristica4"
+               Componentes:
+                 ["Puente gotoh.",
+                   "Clavijero Warwick.",
 
                  ],
-               Basschar3:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3",
-                   "Caracteristica4 _subcaracteristica4"
-                 ],
-               Basschar4:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3"
-
-                 ]
-             }
-           },
-           {
-             id: 5,
-             instrumento:"bajo",
-             name: "XXX",
-             tipo: "XXXXX",
-             woodTapa: "XXXXXX",
-             woodCuerpo: "XXXXXX",
-             clavijeroType: "XXXXXXXXXX",
-             imagePath: "./../../assets/images/Bajos/Bass_01/",
-             images: [
-               "Bass1_Foto1_Comp20-1440x960.jpg",
-               "Bass1_Foto2_Comp20-1440x960.jpg",
-               "Bass1_Foto3_Comp20-1440x960.jpg",
-               "Bass1_Foto4_Comp20-1440x960.jpg",
-               "Bass1_Foto5_Comp20-1440x960.jpg",
-               "Bass1_Foto6_Comp20-1440x960.jpg",
-               "Bass1_Foto7_Comp20-1440x960.jpg",
-               "Bass1_Foto8_Comp20-1440x960.jpg"
-             ],
-             imageList: "Bass1_Foto1_Comp20-1440x960.jpg",
-             imageShowR: "Bass1_Foto5_Comp20-1440x960.jpg",
-             chars:
-             {
-               Basschar1:
-                 ["Caracteristica1 _subcaracteristica1",
-                   "Caracteristica1 _subcaracteristica2",
-                   "Caracteristica1 _subcaracteristica3",
-                   "Caracteristica1 _subcaracteristica4"
-                 ],
-               Basschar2:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3",
-                   "Caracteristica4 _subcaracteristica4"
-
-                 ],
-               Basschar3:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3",
-                   "Caracteristica4 _subcaracteristica4"
-                 ],
-               Basschar4:
-                 ["Caracteristica2 _subcaracteristica1",
-                   "Caracteristica2 _subcaracteristica2",
-                   "Caracteristica3 _subcaracteristica3"
+               Pastillas:
+                 ["Pastillas Fender Jazz Bass.",
 
                  ]
              }
            }
+           
          ];
 
          getBasses() {
