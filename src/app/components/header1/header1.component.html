@@ -12,7 +12,7 @@
         </ul>
         <div *ngIf="!isDeskTop">
             <div menumobile (click)="onMenu()">Menu</div>
-            <div [style.opacity]="isDesktop||deployed?1:0">
+            <div [style.opacity]="isDeskTop||deployed?1:0">
                         <ul mobile (click)="onLink()">
                             <li routerLink="/home"  routerLinkActive="active"
                                 [routerLinkActiveOptions]="{exact:true}">Home</li>
