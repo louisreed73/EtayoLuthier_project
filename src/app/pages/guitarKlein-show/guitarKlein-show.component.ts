@@ -23,6 +23,8 @@ export class GuitarKleinShowComponent implements OnInit {
   constructor(public servicioGuitars:ServiceGuitarsKlein,public router:ActivatedRoute) { }
 
   ngOnInit() {
+    window.scrollTo(0, 0);
+
 
     // console.log(+this.router.snapshot.params.id);
     this.name=this.router.snapshot.params.name;

@@ -13,6 +13,7 @@ export class BassesComponent implements OnInit {
   constructor(private basses:ServiceBasses) { }
 
   ngOnInit() {
+    window.scrollTo(0, 0);
     console.log(this.basses.getBasses());
     this.bassesA=this.basses.getBasses();
   }

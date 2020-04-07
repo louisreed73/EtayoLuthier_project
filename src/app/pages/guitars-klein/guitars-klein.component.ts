@@ -14,6 +14,8 @@ export class GuitarsKleinComponent implements OnInit {
   constructor(private guitars: ServiceGuitarsKlein) { }
 
   ngOnInit() {
+    window.scrollTo(0, 0);
+
     // console.log(this.guitars.getGuitars());
     this.guitarsK = this.guitars.getGuitarsKlein();
 

@@ -15,6 +15,7 @@ export class BassShowComponent implements OnInit {
   constructor(public servicioBasses:ServiceBasses,public router:ActivatedRoute) { }
 
   ngOnInit() {
+    window.scrollTo(0, 0);
 
     // console.log(+this.router.snapshot.params.id);
     this.name=this.router.snapshot.params.name;

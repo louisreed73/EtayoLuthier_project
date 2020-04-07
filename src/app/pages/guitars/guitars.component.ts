@@ -23,6 +23,8 @@ export class GuitarsComponent implements OnInit,OnDestroy {
   constructor(private guitars:ServiceGuitars) { }
 
   ngOnInit() {
+    window.scrollTo(0, 0);
+
     // console.log(this.guitars.getGuitars());
     this.guitarsA=this.guitars.getGuitars();
 

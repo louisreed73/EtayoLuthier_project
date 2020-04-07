@@ -14,6 +14,8 @@ export class GuitarsVentaComponent implements OnInit {
   constructor(private guitars: ServiceGuitarsVenta) { }
 
   ngOnInit() {
+    window.scrollTo(0, 0);
+
     // console.log(this.guitars.getGuitars());
     this.guitarsV = this.guitars.getGuitarsVenta();
 
