@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 const {log:l}=console;
 
+
+
 @Component({
   selector: "app-header1",
   templateUrl: "./header1.component.html",
@@ -9,29 +11,42 @@ const {log:l}=console;
 })
 export class Header1Component implements OnInit {
   isDeskTop = false;
+  deployed = false;
   wW = window.innerWidth;
 
   constructor() {}
 
   ngOnInit() {
-       this.calculoW();
-
+    this.calculoW();
   }
 
   onResize(e: Event) {
     this.wW = (e.target as Window).innerWidth;
-    this.calculoW()
-
-
+    this.calculoW();
   }
 
   calculoW() {
-        if (this.wW >= 678) {
-          this.isDeskTop = true;
-        } else {
-          this.isDeskTop = false;
-        }
-        l("Cambiando tamaño window!!!!", this.wW);
+    if (this.wW >= 678) {
+      this.isDeskTop = true;
+    } else {
+             if(this.deployed) {
+               this.deployed=false;
+             }
+             this.isDeskTop = false;
+           }
+    l("Cambiando tamaño window!!!!", this.wW);
+  }
 
+  onMenu() {
+    l(this.deployed);
+    let ul = document.querySelector("ul[mobile]")!;
+    ul.classList.toggle("min");
+    setTimeout(() => {
+      this.deployed = !this.deployed;
+    }, 250);
+    l(ul);
+  }
+  onLink() {
+    this.onMenu()
   }
 }
