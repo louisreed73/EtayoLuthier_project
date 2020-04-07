@@ -41,7 +41,7 @@ export class ServiceGuitarsKlein {
                "GuitKlein2_Foto3_Comp20-938x1250.jpg",
                "GuitKlein2_Foto4_Comp20-938x1250.jpg",
              ],
-             imageList: "GuitKlein2_Foto2_Comp20-938x1250.jpg",
+             imageList: "GuitKlein2_Foto1_Comp20-938x1250.jpg",
              imageShowR: "GuitKlein2_Foto1_Comp20-938x1250.jpg",
              chars: {
                Cuerpo: [
@@ -60,7 +60,7 @@ export class ServiceGuitarsKlein {
                ],
              },
            },
-           //!Edicion
+
            {
              id: 1,
              instrumento: "guitarra",
@@ -74,7 +74,7 @@ export class ServiceGuitarsKlein {
                "GuitKlein3_Foto1_Comp20-938x1250.jpg",
                "GuitKlein3_Foto2_Comp20-938x1250.jpg",
              ],
-             imageList: "GuitKlein3_Foto2_Comp20-938x1250.jpg",
+             imageList: "GuitKlein3_Foto1_Comp20-938x1250.jpg",
              imageShowR: "GuitKlein3_Foto1_Comp20-938x1250.jpg",
              chars: {
                Cuerpo: [
@@ -138,7 +138,7 @@ export class ServiceGuitarsKlein {
                "GuitKlein5_Foto1_Comp20-1250x938.jpg",
                "GuitKlein5_Foto2_Comp20-938x1250.jpg",
              ],
-             imageList: "GuitKlein5_Foto2_Comp20-938x1250.jpg",
+             imageList: "GuitKlein5_Foto1_Comp20-1250x938.jpg",
              imageShowR: "GuitKlein5_Foto1_Comp20-1250x938.jpg",
              chars: {
                Cuerpo: ["Cuerpo Sólido en madera de sapelly.", "Tapa de arce."],
