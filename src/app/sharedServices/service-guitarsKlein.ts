@@ -1,252 +1,155 @@
 export class ServiceGuitarsKlein {
-         private readonly guitars: object[] = [           
+         private readonly guitars: object[] = [
            {
              id: 0,
-             instrumento:"guitarra",
+             instrumento: "guitarra",
              name: "Guitarra Klein Standard.",
-             tipo: "Guitarra eléctrica Klein  sólida en madera de sapelly y fresno.",//En pag Guitarras solo esta Caract
+             tipo:
+               "Guitarra eléctrica Klein  sólida en madera de sapelly y fresno.", //En pag Guitarras solo esta Caract
              woodTapa: "Tapa de madera de Fresno",
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
-             imagePath: "./../../assets/images/Guitarras/Guitar_05/",
+             imagePath: "./../../assets/images/GuitarrasKlein/Guitar_01/",
              images: [
-               "Guit5_Foto1_Comp20-1024x682.jpg",
-               "Guit5_Foto2_Comp20-570x380.jpg",
-               "Guit5_Foto3_Comp20-938x1250.jpg",
-               "Guit5_Foto4_Comp20-938x1250.jpg",
-               "Guit5_Foto5_Comp20-938x1250.jpg",
-               "Guit5_Foto6_Comp20-938x1250.jpg",
-               "Guit5_Foto7_Comp20-1374x933.jpeg",
-               "Guit5_Foto8_Comp20-1599x1600.jpeg",
-               "Guit5_Foto9_Comp20-1250x938.jpg",
-               "Guit5_Foto10_Comp20-938X1250.jpg"
+               "GuitKlein1_Foto1_Comp20-570x380.jpg",
+               "GuitKlein1_Foto2_Comp20-570x380.jpg",
              ],
-             imageList: "Guit5_Foto1_Comp20-570x380.jpg",
-             imageShowR: "Guit5_Foto7_Comp20-1374x933.jpeg",
-             chars:
-             {
-               Cuerpo:
-                 ["Cuerpo Sólido en madera de sapelly y fresno.",
-
- 
-                 ],
-               Mástil:
-                 ["Madera de arce.",
-                   "Diapasón de ébano.",
-
-                 ],
-               Componentes:
-                 ["Puente Jcustom Headless.",
-                   "Cejuela de bloqueo Jcustom Headless.",
-
-                 ],
-               Pastillas:
-                 ["Pastillas  Gibson 57 Classic Humbucker.",
-
-
-                 ]
-             }
+             imageList: "GuitKlein1_Foto1_Comp20-570x380.jpg",
+             imageShowR: "GuitKlein1_Foto2_Comp20-570x380.jpg",
+             chars: {
+               Cuerpo: ["Cuerpo Sólido en madera de sapelly y fresno."],
+               Mástil: ["Madera de arce.", "Diapasón de ébano."],
+               Componentes: [
+                 "Puente Jcustom Headless.",
+                 "Cejuela de bloqueo Jcustom Headless.",
+               ],
+               Pastillas: ["Pastillas  Gibson 57 Classic Humbucker."],
+             },
            },
            {
              id: 1,
-             instrumento:"guitarra",
-             name: "Guitarra Klein ergonómica adaptada.",
-             tipo: "Guitarra eléctrica Klein  semihueca en madera de sapelly.",//En pag Guitarras solo esta Caract
+             instrumento: "guitarra",
+             name: "Guitarra Klein ergonómica adaptada0.",
+             tipo: "Guitarra eléctrica Klein  semihueca en madera de sapelly.", //En pag Guitarras solo esta Caract
              woodTapa: "Tapa de madera de Fresno",
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
-             imagePath: "./../../assets/images/Guitarras/Guitar_05/",
+             imagePath: "./../../assets/images/GuitarrasKlein/Guitar_02/",
              images: [
-               "Guit5_Foto1_Comp20-1024x682.jpg",
-               "Guit5_Foto2_Comp20-570x380.jpg",
-               "Guit5_Foto3_Comp20-938x1250.jpg",
-               "Guit5_Foto4_Comp20-938x1250.jpg",
-               "Guit5_Foto5_Comp20-938x1250.jpg",
-               "Guit5_Foto6_Comp20-938x1250.jpg",
-               "Guit5_Foto7_Comp20-1374x933.jpeg",
-               "Guit5_Foto8_Comp20-1599x1600.jpeg",
-               "Guit5_Foto9_Comp20-1250x938.jpg",
-               "Guit5_Foto10_Comp20-938X1250.jpg"
+               "GuitKlein2_Foto1_Comp20-938x1250.jpg",
+               "GuitKlein2_Foto2_Comp20-938x1250.jpg",
+               "GuitKlein2_Foto3_Comp20-938x1250.jpg",
+               "GuitKlein2_Foto4_Comp20-938x1250.jpg",
              ],
-             imageList: "Guit5_Foto1_Comp20-570x380.jpg",
-             imageShowR: "Guit5_Foto7_Comp20-1374x933.jpeg",
-             chars:
-             {
-               Cuerpo:
-                 ["Cuerpo Semihueco en madera de sapelly.",
-                   "Tapa armónica de amaranto.",
-                   "Tapa fondo de sapelly.",
- 
-                 ],
-               Mástil:
-                 ["Madera de arce.",
-                   "Diapasón de ébano.",
-
-                 ],
-               Componentes:
-                 ["Puente Jcustom Headless.",
-                   "Cejuela de bloqueo Jcustom Headless.",
-
-                 ],
-               Pastillas:
-                 ["Pastillas Humbucker Kent Armstrong bobinada a mano.",
-                   "Puente Handwoud PAF- Resin Cas.",
-
-
-                 ]
-             }
-            
+             imageList: "GuitKlein2_Foto2_Comp20-938x1250.jpg",
+             imageShowR: "GuitKlein2_Foto1_Comp20-938x1250.jpg",
+             chars: {
+               Cuerpo: [
+                 "Cuerpo Semihueco en madera de sapelly.",
+                 "Tapa armónica de amaranto.",
+                 "Tapa fondo de sapelly.",
+               ],
+               Mástil: ["Madera de arce.", "Diapasón de ébano."],
+               Componentes: [
+                 "Puente Jcustom Headless.",
+                 "Cejuela de bloqueo Jcustom Headless.",
+               ],
+               Pastillas: [
+                 "Pastillas Humbucker Kent Armstrong bobinada a mano.",
+                 "Puente Handwoud PAF- Resin Cas.",
+               ],
+             },
+           },
+           //!Edicion
+           {
+             id: 1,
+             instrumento: "guitarra",
+             name: "Guitarra Klein ergonómica adaptada1.",
+             tipo: "Guitarra eléctrica Klein  semihueca en madera de sapelly.", //En pag Guitarras solo esta Caract
+             woodTapa: "Tapa de madera de Fresno",
+             woodCuerpo: "Cuerpo sólido de madera de Sapelly",
+             clavijeroType: "Doble arco",
+             imagePath: "./../../assets/images/GuitarrasKlein/Guitar_03/",
+             images: [
+               "GuitKlein3_Foto1_Comp20-938x1250.jpg",
+               "GuitKlein3_Foto2_Comp20-938x1250.jpg",
+             ],
+             imageList: "GuitKlein3_Foto2_Comp20-938x1250.jpg",
+             imageShowR: "GuitKlein3_Foto1_Comp20-938x1250.jpg",
+             chars: {
+               Cuerpo: [
+                 "Cuerpo Semihueco en madera de sapelly.",
+                 "Tapa armónica de amaranto.",
+                 "Tapa fondo de sapelly.",
+               ],
+               Mástil: ["Madera de arce.", "Diapasón de ébano."],
+               Componentes: [
+                 "Puente Jcustom Headless.",
+                 "Cejuela de bloqueo Jcustom Headless.",
+               ],
+               Pastillas: [
+                 "Pastillas Humbucker Kent Armstrong bobinada a mano.",
+                 "Puente Handwoud PAF- Resin Cas.",
+               ],
+             },
            },
            {
-             id:2,
+             id: 2,
              instrumento: "guitarra",
-             name: "Guitarra Klein ergonómica adaptada.",
-             tipo: "Guitarra eléctrica Klein  semihueca en madera de sapelly.",//En pag Guitarras solo esta Caract
+             name: "Guitarra Klein ergonómica adaptada2.",
+             tipo: "Guitarra eléctrica Klein  semihueca en madera de sapelly.", //En pag Guitarras solo esta Caract
              woodTapa: "Tapa de madera de Fresno",
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
-             imagePath: "./../../assets/images/Guitarras/Guitar_05/",
+             imagePath: "./../../assets/images/GuitarrasKlein/Guitar_04/",
              images: [
-               "Guit5_Foto1_Comp20-1024x682.jpg",
-               "Guit5_Foto2_Comp20-570x380.jpg",
-               "Guit5_Foto3_Comp20-938x1250.jpg",
-               "Guit5_Foto4_Comp20-938x1250.jpg",
-               "Guit5_Foto5_Comp20-938x1250.jpg",
-               "Guit5_Foto6_Comp20-938x1250.jpg",
-               "Guit5_Foto7_Comp20-1374x933.jpeg",
-               "Guit5_Foto8_Comp20-1599x1600.jpeg",
-               "Guit5_Foto9_Comp20-1250x938.jpg",
-               "Guit5_Foto10_Comp20-938X1250.jpg"
+               "GuitKlein4_Foto1_Comp20-1374x933.jpeg",
+               "GuitKlein4_Foto2_Comp20-1599x1600.jpeg",
              ],
-             imageList: "Guit5_Foto1_Comp20-570x380.jpg",
-             imageShowR: "Guit5_Foto7_Comp20-1374x933.jpeg",
-             chars:
-             {
-               Cuerpo:
-                 ["Cuerpo Semihueco en madera de sapelly.",
-                   "Tapa armónica de nogal.",
-                   "Tapa fondo de arce.",
-
-                 ],
-               Mástil:
-                 ["Madera de arce.",
-                   "Diapasón de ébano.",
-
-                 ],
-               Componentes:
-                 ["Puente Jcustom Headless.",
-                   "Cejuela de bloqueo Jcustom Headless.",
-
-                 ],
-               Pastillas:
-                 ["Pastillas Kent Armstrong Handwoud P-90 HumSize  bobinada a mano.",
-                   "Puente Kent Armstrong Vintage 57 Hum-B.",
-
-
-                 ]
-             }
-
+             imageList: "GuitKlein4_Foto2_Comp20-1599x1600.jpeg",
+             imageShowR: "GuitKlein4_Foto1_Comp20-1374x933.jpeg",
+             chars: {
+               Cuerpo: [
+                 "Cuerpo Semihueco en madera de sapelly.",
+                 "Tapa armónica de nogal.",
+                 "Tapa fondo de arce.",
+               ],
+               Mástil: ["Madera de arce.", "Diapasón de ébano."],
+               Componentes: [
+                 "Puente Jcustom Headless.",
+                 "Cejuela de bloqueo Jcustom Headless.",
+               ],
+               Pastillas: [
+                 "Pastillas Kent Armstrong Handwoud P-90 HumSize  bobinada a mano.",
+                 "Puente Kent Armstrong Vintage 57 Hum-B.",
+               ],
+             },
            },
            {
              id: 3,
              instrumento: "guitarra",
-             name: "Guitarra Klein ergonómica Standard.",
-             tipo: "Guitarra eléctrica Klein sólida en madera de sapelly.",//En pag Guitarras solo esta Caract
+             name: "Guitarra Klein ergonómica Standard1.",
+             tipo: "Guitarra eléctrica Klein sólida en madera de sapelly.", //En pag Guitarras solo esta Caract
              woodTapa: "Tapa de madera de Fresno",
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
-             imagePath: "./../../assets/images/Guitarras/Guitar_05/",
+             imagePath: "./../../assets/images/GuitarrasKlein/Guitar_05/",
              images: [
-               "Guit5_Foto1_Comp20-1024x682.jpg",
-               "Guit5_Foto2_Comp20-570x380.jpg",
-               "Guit5_Foto3_Comp20-938x1250.jpg",
-               "Guit5_Foto4_Comp20-938x1250.jpg",
-               "Guit5_Foto5_Comp20-938x1250.jpg",
-               "Guit5_Foto6_Comp20-938x1250.jpg",
-               "Guit5_Foto7_Comp20-1374x933.jpeg",
-               "Guit5_Foto8_Comp20-1599x1600.jpeg",
-               "Guit5_Foto9_Comp20-1250x938.jpg",
-               "Guit5_Foto10_Comp20-938X1250.jpg"
+               "GuitKlein5_Foto1_Comp20-1250x938.jpg",
+               "GuitKlein5_Foto2_Comp20-938x1250.jpg",
              ],
-             imageList: "Guit5_Foto1_Comp20-570x380.jpg",
-             imageShowR: "Guit5_Foto7_Comp20-1374x933.jpeg",
-             chars:
-             {
-               Cuerpo:
-                 ["Cuerpo Sólido en madera de sapelly.",
-                   "Tapa de arce.",
-    
-                 ],
-               Mástil:
-                 ["Madera de arce.",
-                   "Diapasón de ébano.",
-
-                 ],
-               Componentes:
-                 ["Puente Jcustom Headless.",
-                   "Cejuela de bloqueo Jcustom Headless.",
-
-                 ],
-               Pastillas:
-                 ["Pastillas Kent Armstrong Vintage 57.",
-
-
-
-                 ]
-             }
-
+             imageList: "GuitKlein5_Foto2_Comp20-938x1250.jpg",
+             imageShowR: "GuitKlein5_Foto1_Comp20-1250x938.jpg",
+             chars: {
+               Cuerpo: ["Cuerpo Sólido en madera de sapelly.", "Tapa de arce."],
+               Mástil: ["Madera de arce.", "Diapasón de ébano."],
+               Componentes: [
+                 "Puente Jcustom Headless.",
+                 "Cejuela de bloqueo Jcustom Headless.",
+               ],
+               Pastillas: ["Pastillas Kent Armstrong Vintage 57."],
+             },
            },
-            {
-             id:4,
-             instrumento: "guitarra",
-             name: "Guitarra Klein ergonómica Standard.",
-              tipo: "Guitarra eléctrica Klein sólida en madera de nogal americano.",//En pag Guitarras solo esta Caract
-             woodTapa: "Tapa de madera de Fresno",
-             woodCuerpo: "Cuerpo sólido de madera de Sapelly",
-             clavijeroType: "Doble arco",
-             imagePath: "./../../assets/images/Guitarras/Guitar_05/",
-             images: [
-               "Guit5_Foto1_Comp20-1024x682.jpg",
-               "Guit5_Foto2_Comp20-570x380.jpg",
-               "Guit5_Foto3_Comp20-938x1250.jpg",
-               "Guit5_Foto4_Comp20-938x1250.jpg",
-               "Guit5_Foto5_Comp20-938x1250.jpg",
-               "Guit5_Foto6_Comp20-938x1250.jpg",
-               "Guit5_Foto7_Comp20-1374x933.jpeg",
-               "Guit5_Foto8_Comp20-1599x1600.jpeg",
-               "Guit5_Foto9_Comp20-1250x938.jpg",
-               "Guit5_Foto10_Comp20-938X1250.jpg"
-             ],
-             imageList: "Guit5_Foto1_Comp20-570x380.jpg",
-             imageShowR: "Guit5_Foto7_Comp20-1374x933.jpeg",
-             chars:
-             {
-               Cuerpo:
-                 ["Cuerpo Sólido en madera de nogal americano.",
-                   "Tapa de cebrano.",
-                   "Tapa intermedia de fresno.",
-
-                 ],
-               Mástil:
-                 ["Madera de arce.",
-                   "Diapasón de ébano.",
-
-                 ],
-               Componentes:
-                 ["Puente Jcustom Headless.",
-                   "Cejuela de bloqueo Jcustom Headless.",
-
-                 ],
-               Pastillas:
-                 ["Pastillas Kent Armstrong.",
-
-
-
-                 ]
-             }
-
-           },
-           
          ];
 
          getGuitarsKlein() {
