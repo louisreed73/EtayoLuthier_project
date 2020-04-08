@@ -3,7 +3,7 @@ export class ServiceGuitarsKlein {
            {
              id: 0,
              instrumento: "guitarra",
-             name: "Guitarra Klein Standard.",
+             name: "Guitarra tipo Klein Standard.",
              tipo:
                "Guitarra eléctrica tipo Klein  sólida en madera de sapelly y fresno.", //En pag Guitarras solo esta Caract
              woodTapa: "Tapa de madera de Fresno",
@@ -29,7 +29,7 @@ export class ServiceGuitarsKlein {
            {
              id: 1,
              instrumento: "guitarra",
-             name: "Guitarra Klein ergonómica adaptada0.",
+             name: "Guitarra tipo Klein ergonómica adaptada0.",
              tipo:
                "Guitarra eléctrica tipo Klein  semihueca en madera de sapelly.", //En pag Guitarras solo esta Caract
              woodTapa: "Tapa de madera de Fresno",
@@ -63,7 +63,7 @@ export class ServiceGuitarsKlein {
            {
              id: 1,
              instrumento: "guitarra",
-             name: "Guitarra Klein ergonómica adaptada1.",
+             name: "Guitarra tipo Klein ergonómica adaptada1.",
              tipo:
                "Guitarra eléctrica tipo Klein  semihueca en madera de sapelly.", //En pag Guitarras solo esta Caract
              woodTapa: "Tapa de madera de Fresno",
@@ -96,7 +96,7 @@ export class ServiceGuitarsKlein {
            {
              id: 2,
              instrumento: "guitarra",
-             name: "Guitarra Klein ergonómica adaptada2.",
+             name: "Guitarra tipo Klein ergonómica adaptada2.",
              tipo:
                "Guitarra eléctrica tipo Klein  semihueca en madera de sapelly.", //En pag Guitarras solo esta Caract
              woodTapa: "Tapa de madera de Fresno",
@@ -129,7 +129,7 @@ export class ServiceGuitarsKlein {
            {
              id: 3,
              instrumento: "guitarra",
-             name: "Guitarra Klein ergonómica Standard1.",
+             name: "Guitarra tipo Klein ergonómica Standard1.",
              tipo: "Guitarra eléctrica tipo Klein sólida en madera de sapelly.", //En pag Guitarras solo esta Caract
              woodTapa: "Tapa de madera de Fresno",
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
@@ -154,7 +154,7 @@ export class ServiceGuitarsKlein {
            {
              id: 3,
              instrumento: "guitarra",
-             name: "Semiacústica adaptada 23.",
+             name: "Guitarra tipo Klein Semiacústica adaptada 23.",
              tipo:
                "Guitarra eléctrica tipo Klein semiacústica en madera de Caoba y Palo Santo.", //En pag Guitarras solo esta Caract
              woodTapa: "Tapa de madera de Fresno",
