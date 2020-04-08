@@ -1,63 +1,78 @@
 @import '~src/sassBEM/variables.scss';
 
 [instChars] {
-    background:white;
-    padding:1rem;
+    background: white;
+    padding: 1rem;
+
     .active {
-            border-bottom: 0.5px solid #044b74;
-            font-weight: 700;
-            font-size: 1.6rem;
-            color: #044b74;
+        border-bottom: 0.5px solid #044b74;
+        font-weight: 400;
+        font-size: 1.5rem;
+        color: #ffffff;
+        background: #044b74;
+        margin: .2rem 0rem 0rem 0rem;
+        border: none;
     }
 }
 
 ._instChars {
     &__Tabs {
         @include basicF();
-        justify-content:space-around;
-        font-size:.9em;
+        justify-content: space-around;
+        font-size: .9em;
+        padding: 1rem 1rem 0rem;
+        font-weight: 500;
+        color: #044b74;
 
 
         &__Title1,
         &__Title2,
         &__Title3,
-        &__Title4
-        {
+        &__Title4 {
             // color:red;
-            font-size:1.4rem;
-                padding: 0.6rem 1.7rem;
-            cursor:pointer;
+            font-size: 1.4rem;
+            padding: 0.6rem 1.7rem;
+            cursor: pointer;
+            flex: 1 0 auto;
+            text-align: center;
+            border: .1px solid gainsboro;
+            border-bottom: none;
         }
 
     }
 
     &__Content {
-        position:relative;
-        padding:2rem 1rem 1rem 1rem;
-        min-height:14rem;
+        position: relative;
+        padding: 2rem 1rem 1rem 1rem;
+        min-height: 14rem;
+        background: #044b74;
+        color: white;
+        margin: -0.1rem 1rem 1rem;
 
         &_1,
         &_2,
         &_3,
-        &_4
-         {
-            position:absolute;
-            top:1rem;
-            left:0rem;
+        &_4 {
+            position: absolute;
+            top: 1rem;
+            left: 0rem;
             max-width: calc(100vw - 6rem);
-            opacity:0;
+            opacity: 0;
             transition: opacity .25s ease-in-out;
+            padding: 1rem;
+
             * {
                 margin: 1.5rem auto;
-                width:100%;
+                width: 100%;
             }
         }
+
         .activeContent {
-            opacity:1;
+            opacity: 1;
 
         }
     }
-    
+
 
 
 
