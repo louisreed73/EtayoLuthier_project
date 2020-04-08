@@ -11,8 +11,8 @@ export class ServiceGuitarsKlein {
              clavijeroType: "Doble arco",
              imagePath: "./../../assets/images/GuitarrasKlein/Guitar_01/",
              images: [
-               "GuitKlein1_Foto1_Comp20-570x380.jpg",
                "GuitKlein1_Foto2_Comp20-570x380.jpg",
+               "GuitKlein1_Foto1_Comp20-570x380.jpg",
              ],
              imageList: "GuitKlein1_Foto1_Comp20-570x380.jpg",
              imageShowR: "GuitKlein1_Foto2_Comp20-570x380.jpg",
@@ -37,8 +37,8 @@ export class ServiceGuitarsKlein {
              clavijeroType: "Doble arco",
              imagePath: "./../../assets/images/GuitarrasKlein/Guitar_02/",
              images: [
-               "GuitKlein2_Foto1_Comp20-1200x900.jpg",
                "GuitKlein2_Foto2_Comp20-1200x900.jpg",
+               "GuitKlein2_Foto1_Comp20-1200x900.jpg",
              ],
              imageList: "GuitKlein2_Foto1_Comp20-1200x900.jpg",
              imageShowR: "GuitKlein2_Foto2_Comp20-1200x900.jpg",
@@ -71,8 +71,8 @@ export class ServiceGuitarsKlein {
              clavijeroType: "Doble arco",
              imagePath: "./../../assets/images/GuitarrasKlein/Guitar_03/",
              images: [
-               "GuitKlein3_Foto1_Comp20-1200x900.jpg",
                "GuitKlein3_Foto2_Comp20-1200x900.jpg",
+               "GuitKlein3_Foto1_Comp20-1200x900.jpg",
              ],
              imageList: "GuitKlein3_Foto1_Comp20-1200x900.jpg",
              imageShowR: "GuitKlein3_Foto2_Comp20-1200x900.jpg",
@@ -104,8 +104,8 @@ export class ServiceGuitarsKlein {
              clavijeroType: "Doble arco",
              imagePath: "./../../assets/images/GuitarrasKlein/Guitar_04/",
              images: [
-               "GuitKlein4_Foto1_Comp20-1374x933.jpeg",
                "GuitKlein4_Foto2_Comp20-1200x900.jpg",
+               "GuitKlein4_Foto1_Comp20-1374x933.jpeg",
              ],
              imageList: "GuitKlein4_Foto1_Comp20-1374x933.jpeg",
              imageShowR: "GuitKlein4_Foto2_Comp20-1200x900.jpg",
@@ -136,8 +136,8 @@ export class ServiceGuitarsKlein {
              clavijeroType: "Doble arco",
              imagePath: "./../../assets/images/GuitarrasKlein/Guitar_05/",
              images: [
-               "GuitKlein5_Foto1_Comp20-1200x900.jpg",
                "GuitKlein5_Foto2_Comp20-1200x900.jpg",
+               "GuitKlein5_Foto1_Comp20-1200x900.jpg",
              ],
              imageList: "GuitKlein5_Foto1_Comp20-1200x900.jpg",
              imageShowR: "GuitKlein5_Foto2_Comp20-1200x900.jpg",
@@ -162,8 +162,8 @@ export class ServiceGuitarsKlein {
              clavijeroType: "Doble arco",
              imagePath: "./../../assets/images/GuitarrasKlein/Guitar_06/",
              images: [
-               "GuitKlein6_Foto1_Comp20-1200x720.jpg",
                "GuitKlein6_Foto2_Comp20-1200x720.jpg",
+               "GuitKlein6_Foto1_Comp20-1200x720.jpg",
                "GuitKlein6_Foto3_Comp20-1200x720.jpg",
                "GuitKlein6_Foto4_Comp20-1200x720.jpg",
                "GuitKlein6_Foto5_Comp20-1200x720.jpg",
