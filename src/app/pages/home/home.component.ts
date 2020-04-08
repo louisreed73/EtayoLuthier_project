@@ -1,4 +1,7 @@
+
+// import { Carrousel } from './../../sharedClasses/carrousel.class';
 import { Component, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-home',
@@ -11,6 +14,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     window.scrollTo(0, 0);
+      
 
   }
 
