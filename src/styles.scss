@@ -102,10 +102,10 @@ a {
 .carrousel {
     position: relative;
     margin: 1rem auto;
-    padding-top: 66.6%;
+    padding-top: 74.6%;
     width: 100%;
     background: black;
-    // overflow: hidden;
+    overflow: hidden;
     max-width: 850px;
     @media only screen and (min-width:768px) {
     padding-top: initial;
@@ -143,7 +143,7 @@ button {
     border:none;
     cursor:pointer;
     position: absolute;
-    bottom: calc(0% - 11px) ;
+    bottom: calc(0%  + 25px);
     font-size: 1.65rem;
     width: 25px;
     height: 32px;
