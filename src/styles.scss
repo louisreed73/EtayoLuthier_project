@@ -100,25 +100,38 @@ a {
 
 
 .carrousel {
-    // top:3rem;
-    position:relative;
+    position: relative;
     margin: 1rem auto;
-    // height: 30rem;
-    height: 27vmax;
+    padding-top: 66.6%;
     width: 100%;
-    background:black;
-    overflow:hidden;
-    // border-bottom: 1px solid black;
+    background: black;
+    overflow: hidden;
+    max-width: 850px;
+    @media only screen and (min-width:768px) {
+    padding-top: initial;
+    height:450px;
+
+    }
+
+
 
 img {
     position:absolute;
     width:100%;
-    height:100%;
+    height:auto;
     top:0;
     left:50%;
     transform:translateX(-50%);
     opacity:0;
     object-fit:contain;
+    transition: opacity .5s ease-in-out;
+    @media only screen and (min-width:768px) {
+            height:100%;
+            width:auto;
+
+
+    }
+
 }
 
 
@@ -160,7 +173,6 @@ button.forward {
 
 .active {
     opacity: 1;
-    transition: opacity .5s ease-in-out;
 }
 
 

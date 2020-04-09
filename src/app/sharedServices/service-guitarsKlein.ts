@@ -61,7 +61,7 @@ export class ServiceGuitarsKlein {
            },
 
            {
-             id: 1,
+             id: 2,
              instrumento: "guitarra",
              name: "Guitarra tipo Klein ergonómica adaptada1.",
              tipo:
@@ -94,7 +94,7 @@ export class ServiceGuitarsKlein {
              },
            },
            {
-             id: 2,
+             id: 3,
              instrumento: "guitarra",
              name: "Guitarra tipo Klein ergonómica adaptada2.",
              tipo:
@@ -127,7 +127,7 @@ export class ServiceGuitarsKlein {
              },
            },
            {
-             id: 3,
+             id: 4,
              instrumento: "guitarra",
              name: "Guitarra tipo Klein ergonómica Standard1.",
              tipo: "Guitarra eléctrica tipo Klein sólida en madera de sapelly.", //En pag Guitarras solo esta Caract
@@ -152,7 +152,7 @@ export class ServiceGuitarsKlein {
              },
            },
            {
-             id: 3,
+             id: 5,
              instrumento: "guitarra",
              name: "Guitarra tipo Klein Semiacústica adaptada 23.",
              tipo:
@@ -181,6 +181,106 @@ export class ServiceGuitarsKlein {
                Pastillas: [
                  "Pastillas Humbucker Kent Amstrong bobinada a mano.",
                ],
+             },
+           },
+           {
+             id: 6,
+             instrumento: "guitarra",
+             name: "Guitarra tipo Klein Semiacústica adaptada puente piezo 21.",
+             tipo: "Guitarra eléctrica tipo Klein semiacústica.", //En pag Guitarras solo esta Caract
+             woodTapa: "Tapa de madera de Fresno",
+             woodCuerpo: "Cuerpo sólido de madera de Sapelly",
+             clavijeroType: "Doble arco",
+             imagePath: "./../../assets/images/GuitarrasKlein/Guitar_07/",
+             images: [
+               "GuitKlein7_Foto1_Comp20-1200x900.jpg",
+               "GuitKlein7_Foto2_Comp20-1200x900.jpg",
+               "GuitKlein7_Foto3_Comp20-1200x900.jpg",
+               "GuitKlein7_Foto5_Comp20-1200x900.jpg",
+               "GuitKlein7_Foto6_Comp20-1200x900.jpg",
+               "GuitKlein7_Foto7_Comp20-1200x900.jpg",
+               "GuitKlein7_Foto4_Comp20-1200x900.jpg",
+             ],
+             imageList: "GuitKlein7_Foto4_Comp20-1200x900.jpg",
+             imageShowR: "GuitKlein7_Foto1_Comp20-1200x900.jpg",
+             chars: {
+               Cuerpo: [
+                 "Cuerpo semiacústico con tapa armónica de Arce y tapa fondo de sapelly.",
+                 "Cavidades de ergonomía de ébano y aros de sapelly.",
+               ],
+               Mástil: ["Madera de arce.", "Diapasón de ébano."],
+               Componentes: [
+                 "Puente piezo Tuneomatic Schaller.",
+                 "Tensor de afinación ABM.",
+                 "Cejuela de bloqueo de Schaller.",
+               ],
+               Pastillas: ["Pastillas Humbucker  Gibson 57 Classic."],
+             },
+           },
+           {
+             id: 7,
+             instrumento: "guitarra",
+             name: "Guitarra tipo Klein Semihueca Ergonómica XXL 22.",
+             tipo:
+               "Guitarra eléctrica tipo Klein a medida para estaturas grandes fuera de la media.", //En pag Guitarras solo esta Caract
+             woodTapa: "Tapa de madera de Fresno",
+             woodCuerpo: "Cuerpo sólido de madera de Sapelly",
+             clavijeroType: "Doble arco",
+             imagePath: "./../../assets/images/GuitarrasKlein/Guitar_08/",
+             images: [
+               "GuitKlein8_Foto2_Comp20-1200x900.jpg",
+               "GuitKlein8_Foto3_Comp20-1200x900.jpg",
+               "GuitKlein8_Foto4_Comp20-1200x900.jpg",
+               "GuitKlein8_Foto5_Comp20-1200x900.jpg",
+               "GuitKlein8_Foto1_Comp20-1200x900.jpg",
+             ],
+             imageList: "GuitKlein8_Foto1_Comp20-1200x900.jpg",
+             imageShowR: "GuitKlein8_Foto2_Comp20-1200x900.jpg",
+             chars: {
+               Cuerpo: [
+                 "Cuerpo semihueco con tapa armónica de Arce rizado y tapa fondo de Caoba.",
+                 "Cuerpo de madera de Sapelly.",
+               ],
+               Mástil: ["Madera de arce.", "Diapasón de ébano."],
+               Componentes: [
+                 "Puente JCustom Headless.",
+                 "Cejuela de bloqueo JCustom Headless.",
+               ],
+               Pastillas: ["Pastillas Humbucker  Gibson 57 Classic."],
+             },
+           },
+           {
+             id: 8,
+             instrumento: "guitarra",
+             name: "Guitarra tipo Klein Sólida Standard 18.",
+             tipo: "Guitarra eléctrica tipo Klein Sólida Standard.", //En pag Guitarras solo esta Caract
+             woodTapa: "Tapa de madera de Fresno",
+             woodCuerpo: "Cuerpo sólido de madera de Sapelly",
+             clavijeroType: "Doble arco",
+             imagePath: "./../../assets/images/GuitarrasKlein/Guitar_09/",
+             images: [
+               "GuitKlein9_Foto2_Comp20-1200x900.jpg",
+               "GuitKlein9_Foto3_Comp20-1200x900.jpg",
+               "GuitKlein9_Foto4_Comp20-1200x900.jpg",
+               "GuitKlein9_Foto5_Comp20-1200x900.jpg",
+               "GuitKlein9_Foto6_Comp20-1200x900.jpg",
+               "GuitKlein9_Foto7_Comp20-1200x900.jpg",
+               "GuitKlein9_Foto8_Comp20-1200x900.jpg",
+               "GuitKlein9_Foto1_Comp20-1200x900.jpg",
+             ],
+             imageList: "GuitKlein9_Foto1_Comp20-1200x900.jpg",
+             imageShowR: "GuitKlein9_Foto2_Comp20-1200x900.jpg",
+             chars: {
+               Cuerpo: [
+                 "Cuerpo sólido de madera de Sapelly y Fresno.",
+                 "Tapa de madera de Arce.",
+               ],
+               Mástil: ["Madera de arce.", "Diapasón de ébano."],
+               Componentes: [
+                 "Puente JCustom Headless.",
+                 "Cejuela de bloqueo JCustom Headless.",
+               ],
+               Pastillas: ["Pastillas Humbucker Kent Amstrong 57 Classic."],
              },
            },
          ];
