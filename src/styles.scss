@@ -57,8 +57,7 @@ a {
  
 }
 [ pageMain-show] {
-  padding:#{$headerMinHeight - 5.5} 2rem 2rem 2rem;
-  padding:0 2rem 2rem 2rem;
+  padding:#{$headerMinHeight + 2.5} 2rem 2rem 2rem;
   max-width:100rem;
 }
 
