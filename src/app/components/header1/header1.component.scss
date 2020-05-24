@@ -1,54 +1,61 @@
 @import '~src/sassBEM/variables.scss';
 
 [header] {
-    background:$backgroundHeader;
-    font-size: 1.1rem;
-    position: fixed;
-    width: 100vw;
-    top: 0;
-    z-index:100;
-    padding: 0.7rem 1rem;
-        height: 55px;
-    // border-bottom: 0.1rem solid rgb(177, 177, 177);
-    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
-    
-    ul {
-       @include basicF();
+  background: $backgroundHeader;
+  font-size: 1.1rem;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 100;
+//   padding: 0.7rem 1rem;
+  height: 55px;
+  // border-bottom: 0.1rem solid rgb(177, 177, 177);
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+
+  ul {
+    @include basicF();
     //    height:$headerMinHeight;
-       overflow:hidden;
-   }
-   li {
-       padding:1rem 1.5rem .5rem;
-       cursor:pointer;
-       transition:all .2s ease-in-out;
-       &:not(.active):hover {
-           color:white;
-           background:$backgroundHeaderHover;
-       }
-   }
+    margin-top: 0.3rem;
+    overflow: hidden;
+  }
+
+  li {
+    padding: 1rem 1.5rem .5rem;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
+    &:not(.active):hover {
+      color: white;
+      background: $backgroundHeaderHover;
+    }
+  }
 }
 
 [mobile] {
-    background:gainsboro;
-    flex-flow:column nowrap !important;
-    height:auto;
-    padding:0.25rem 1rem 1rem;
-    height:4rem;
-    min-height:0rem;
-    transition:all .35s ease-in-out;
-    
-    &.min {
-        min-height:24rem;
-        transition:all .35s ease-in-out;
+  background: gainsboro;
+  flex-flow: column nowrap !important;
+  height: auto;
+  padding: 0.25rem 1rem 1rem;
+  height: 4rem;
+  min-height: 0rem;
+  transition: all .35s ease-in-out;
 
-    }
-    
-    
+  &.min {
+    min-height: 24rem;
+    transition: all .35s ease-in-out;
+
+  }
+
+
 }
-        [menumobile] {
-            position:absolute;
-            top:0px;
-            right:0px;
-            padding:2rem;
-            z-index: 20;
-        }
+
+[menumobile] {
+  position: absolute;
+  top: -7px;
+  right: 0px;
+  padding: 2rem;
+  z-index: 20;
+  font-size: 1.8rem;
+  font-weight: 600;
+
+}
