@@ -76,7 +76,7 @@ a {
     background:#044b74;
 
     & > *:not(.cabeceraImg) {
-        padding: 0 2rem;
+        padding: 0 6vw;
     }
     
     h1 {
@@ -103,6 +103,46 @@ a {
     }
 }
 
+[class^="icono"] {
+    display:inline-block;
+    width:60px;
+    height:60px;
+    background:white;
+    margin-right:4rem;
+}
+.contacto-Tipo {
+    font-size:1.7rem;
+    a {
+        display:flex;
+        // justify-content:;
+        align-items:center;
+        
+    }
+  
+}
+
+.icono-email {
+    // background:url(https://img.icons8.com/fluent/96/000000/gmail.png)no-repeat center/100%;
+    background:url('/assets/images/backgrounds/email.svg')no-repeat center/110%;
+    margin-top: 1.5rem;
+
+}
+.icono-mobile{
+    background:url('/assets/images/backgrounds/mobile.svg')no-repeat center/80%;
+}
+.icono-whatsapp{
+    background:url('/assets/images/backgrounds/whatsapp.svg')no-repeat center/85%;
+}
+.icono-facebook{
+    background:url('/assets/images/backgrounds/facebook.svg')no-repeat center/85%;
+}
+.icono-instagram{
+    background:url('/assets/images/backgrounds/instagram.svg')no-repeat center/110%;
+}
+.icono-pinterest{
+    background:url('/assets/images/backgrounds/pinterest.svg')no-repeat center/92%;
+}
+
 .americana {
     background:lightblue;
     padding:2rem 3rem;
@@ -114,6 +154,7 @@ a {
 
 .bajo {
     background:rgba(0, 0, 0, 1);
+    // color:#033653
 }
 
 .volver {
