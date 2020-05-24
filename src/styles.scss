@@ -57,8 +57,51 @@ a {
  
 }
 [ pageMain-show] {
-  padding:#{$headerMinHeight + 1.5} 2rem 2rem 2rem;
+  padding:#{$headerMinHeight - 5.5} 2rem 2rem 2rem;
+  padding:0 2rem 2rem 2rem;
   max-width:100rem;
+}
+
+[ pageMain-home], [pageMain-contact] {
+    padding:0;
+    display:flex;
+    // align-items:center;
+    justify-content:center;
+    background:none;
+
+}
+[ contentMain] {
+    padding:#{$headerMinHeight + 2.5} 0rem 2rem 0rem;
+    max-width:90rem;
+    min-height:calc(100vh - 10rem);
+    background:#044b74;
+
+    & > *:not(.cabeceraImg) {
+        padding: 0 2rem;
+    }
+    
+    h1 {
+        color:lightblue;
+        font-weight:400;
+        margin-bottom:2.5rem;
+    }
+    p {
+        color:white;
+        margin:3rem 0;
+        line-height:2.5rem;
+    
+    }
+
+}
+.cabeceraImg {
+    height:25rem;
+    // background:red;
+    margin-bottom:3rem;
+    img {
+        width:100%;
+        height:100%;
+        object-fit:cover;
+    }
 }
 
 .americana {
@@ -185,3 +228,4 @@ button.forward {
 
 
 }
+

@@ -8,6 +8,7 @@
     top: 0;
     z-index:100;
     padding: 0.7rem 1rem;
+        height: 55px;
     // border-bottom: 0.1rem solid rgb(177, 177, 177);
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
     
@@ -17,7 +18,7 @@
        overflow:hidden;
    }
    li {
-       padding:1rem 1.5rem;
+       padding:1rem 1.5rem .5rem;
        cursor:pointer;
        transition:all .2s ease-in-out;
        &:not(.active):hover {
