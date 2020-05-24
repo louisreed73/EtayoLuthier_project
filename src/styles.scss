@@ -129,9 +129,12 @@ a {
 }
 .icono-mobile{
     background:url('/assets/images/backgrounds/mobile.svg')no-repeat center/80%;
+    margin-top: 1.2rem;
 }
 .icono-whatsapp{
-    background:url('/assets/images/backgrounds/whatsapp.svg')no-repeat center/85%;
+    background: url(/assets/images/backgrounds/whatsapp.svg) no-repeat center/89%;
+    margin-top: 1rem;
+
 }
 .icono-facebook{
     background:url('/assets/images/backgrounds/facebook.svg')no-repeat center/85%;
@@ -155,6 +158,9 @@ a {
 .bajo {
     background:rgba(0, 0, 0, 1);
     // color:#033653
+}
+.dBlock {
+    display:block;
 }
 
 .volver {
