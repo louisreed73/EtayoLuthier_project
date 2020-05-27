@@ -204,22 +204,33 @@ a {
 }
 
 
-
+            .paddingTopPrecio {
+            padding-top: 56.2% !important;
+        
+        }
 
 .carrousel {
     position: relative;
-    margin: 1rem auto;
-    padding-top: 74.6%;
+    margin: -.57rem auto;
+    padding-top: 66.4%;
     width: 100%;
     background: black;
     overflow: hidden;
     max-width: 850px;
+
+        
+
+    
+
+
     @media only screen and (min-width:768px) {
-    padding-top: initial;
-    // height:450px;
+        padding-top: initial;
+        // height:450px;
     height:390px;
 
     }
+
+    
 
 
 
@@ -233,12 +244,14 @@ img {
     opacity:0;
     object-fit:contain;
     transition: opacity .5s ease-in-out;
+
     @media only screen and (min-width:768px) {
             height:100%;
             width:auto;
 
 
     }
+
 
 }
 
@@ -250,15 +263,18 @@ button {
     background:rgba(4, 75, 116,0.5);
     border:none;
     cursor:pointer;
-    position: absolute;
-    bottom: calc(0%  + 25px);
+    // position: absolute;
+    display:inline;
+    bottom: 0;
     font-size: 1.65rem;
     width: 25px;
     height: 32px;
     
     @media only screen and (min-width:678px) {
+        position:absolute;
         top: 50%;
         transform: translate(0%,-50%);
+        bottom: 0;
 /*         width: 40px;
         height: 35px; */
         font-size: 2.25rem;
@@ -283,8 +299,11 @@ button {
 
 
 
+
+
 button.forward {
-    right:0;
+    // right:0;
+    margin-left:calc(100% - 50px)
 }
 
 .active {
