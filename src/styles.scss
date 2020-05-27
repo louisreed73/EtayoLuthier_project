@@ -36,13 +36,21 @@ a {
     text-decoration: none;
 }
 
-.active {
-   border-bottom: .5px solid $colorActive;
-    // margin-bottom:-.7rem;
-    font-weight:700;
-    font-size:1.6rem;
-    color: $colorActive;
+[header] {
+
+    li {
+        font-size:1.25rem;
+    
+    }
+    li.active {
+       border-bottom: .5px solid $colorActive;
+        // margin-bottom:-.7rem;
+        font-weight:700;
+        font-size:1.6rem;
+        color: $colorActive;
+    }
 }
+
 
 [ pageMain] {
     padding:#{$headerMinHeight + 5} .5rem 1rem .5rem ;
@@ -88,7 +96,17 @@ a {
         color:white;
         margin:3rem 0;
         line-height:2.5rem;
-    
+            font-size: 1.325rem;
+            letter-spacing: 0.1rem;
+            
+        }
+        
+        .contacto-Tipo {
+            p {
+                font-size: 1.5rem;
+
+            }
+            
     }
 
 }
@@ -198,7 +216,8 @@ a {
     max-width: 850px;
     @media only screen and (min-width:768px) {
     padding-top: initial;
-    height:450px;
+    // height:450px;
+    height:390px;
 
     }
 

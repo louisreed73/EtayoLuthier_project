@@ -39,7 +39,7 @@
 
         &__Title {
         //    text-align:center;
-           margin-bottom:2rem;
+           margin-bottom:1.5rem;
         }
 
         &__BoxImage {
@@ -49,6 +49,14 @@
                 &:focus {
                   outline: none;
                 }
+        }
+
+        &__PriceReal {
+            font-size: 1.8rem;
+            background:#00253e;
+            color:white;
+            padding:.5rem 5rem;
+            // margin-left:auto;
         }
         
         

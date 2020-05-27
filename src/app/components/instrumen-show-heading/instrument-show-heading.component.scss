@@ -13,13 +13,39 @@
       max-width: 100%;
     
     }
+    &__precio {
+      position:relative;
+      bottom:-4px;
+      height:50px;
+      width:100%;
+      margin:.2rem 0;
+      padding:1.5rem;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:#044b74;
+      color:white;
+      h2, h3 {
+        font-size:1.45rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight:400;
+
+        &:last-child {
+          margin-left:2rem;
+        }
+
+      }
+      // z-index:0;
+      
+    
+    }
 
     &__Title{
      font-size:1.6rem;
      font-weight:500;
     //  margin-bottom:1rem;
      background:white;
-     padding:2rem;
+     padding:1.2rem 2rem;
      color: #044b74;
      font-weight:700;
     

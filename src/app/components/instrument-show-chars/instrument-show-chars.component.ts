@@ -14,6 +14,7 @@ export class InstrumentShowCharsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    // console.log("Este instrumento!!!!",this.instrument,this.instrument.precio)
 
     this.charac = Object.keys(this.instrument.chars);
 
