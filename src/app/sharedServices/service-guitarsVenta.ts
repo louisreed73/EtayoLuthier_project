@@ -9,6 +9,7 @@ export class ServiceGuitarsVenta {
              woodTapa: "Tapa de madera de Fresno",
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
+            //  horizontal:true,
              precio: 10000,
              imagePath: "./../../assets/images/GuitarrasVenta/Guitar_01/",
              images: [

@@ -223,6 +223,20 @@ a {
                 }
         
         }
+            .paddingTopHorizontal {
+                .carrousel {
+
+                    padding-top: 75.4%;
+                    margin: -0.57rem auto -6px !important;
+                    @media only screen and (min-width:768px) {
+                        padding-top: initial;
+                        // height:450px;
+                    height:390px;
+                
+                    }
+                }
+        
+        }
 
 .carrousel {
     position: relative;

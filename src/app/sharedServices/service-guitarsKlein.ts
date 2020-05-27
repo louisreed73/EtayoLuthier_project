@@ -35,6 +35,7 @@ export class ServiceGuitarsKlein {
              woodTapa: "Tapa de madera de Fresno",
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
+             horizontal: true,
              imagePath: "./../../assets/images/GuitarrasKlein/Guitar_02/",
              images: [
                "GuitKlein2_Foto2_Comp20-1200x900.jpg",
@@ -69,6 +70,7 @@ export class ServiceGuitarsKlein {
              woodTapa: "Tapa de madera de Fresno",
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
+             horizontal: true,
              imagePath: "./../../assets/images/GuitarrasKlein/Guitar_03/",
              images: [
                "GuitKlein3_Foto2_Comp20-1200x900.jpg",
@@ -102,6 +104,7 @@ export class ServiceGuitarsKlein {
              woodTapa: "Tapa de madera de Fresno",
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
+             horizontal: true,
              imagePath: "./../../assets/images/GuitarrasKlein/Guitar_04/",
              images: [
                "GuitKlein4_Foto2_Comp20-1200x900.jpg",
@@ -134,6 +137,7 @@ export class ServiceGuitarsKlein {
              woodTapa: "Tapa de madera de Fresno",
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
+             horizontal: true,
              imagePath: "./../../assets/images/GuitarrasKlein/Guitar_05/",
              images: [
                "GuitKlein5_Foto2_Comp20-1200x900.jpg",
@@ -160,6 +164,7 @@ export class ServiceGuitarsKlein {
              woodTapa: "Tapa de madera de Fresno",
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
+             //  horizontal: true,
              imagePath: "./../../assets/images/GuitarrasKlein/Guitar_06/",
              images: [
                "GuitKlein6_Foto2_Comp20-1200x720.jpg",
@@ -191,6 +196,7 @@ export class ServiceGuitarsKlein {
              woodTapa: "Tapa de madera de Fresno",
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
+             horizontal: true,
              imagePath: "./../../assets/images/GuitarrasKlein/Guitar_07/",
              images: [
                "GuitKlein7_Foto1_Comp20-1200x900.jpg",
@@ -226,6 +232,7 @@ export class ServiceGuitarsKlein {
              woodTapa: "Tapa de madera de Fresno",
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
+             horizontal: true,
              imagePath: "./../../assets/images/GuitarrasKlein/Guitar_08/",
              images: [
                "GuitKlein8_Foto2_Comp20-1200x900.jpg",
@@ -257,6 +264,7 @@ export class ServiceGuitarsKlein {
              woodTapa: "Tapa de madera de Fresno",
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
+             horizontal: true,
              imagePath: "./../../assets/images/GuitarrasKlein/Guitar_09/",
              images: [
                "GuitKlein9_Foto2_Comp20-1200x900.jpg",
