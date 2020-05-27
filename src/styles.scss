@@ -205,7 +205,17 @@ a {
 
 
             .paddingTopPrecio {
-            padding-top: 56.2% !important;
+                .carrousel {
+
+                    padding-top: 56.2%;
+                    margin: -.57rem auto 0 !important;
+                    @media only screen and (min-width:768px) {
+                        padding-top: initial;
+                        // height:450px;
+                    height:390px;
+                
+                    }
+                }
         
         }
 
@@ -238,7 +248,7 @@ img {
     position:absolute;
     width:100%;
     height:auto;
-    top:0;
+    top:0px;
     left:50%;
     transform:translateX(-50%);
     opacity:0;
@@ -303,7 +313,11 @@ button {
 
 button.forward {
     // right:0;
-    margin-left:calc(100% - 50px)
+    margin-left:calc(100% - 50px);
+    @media only screen and (min-width:678px) {
+        margin-left:calc(100% - 46px);
+
+     }
 }
 
 .active {

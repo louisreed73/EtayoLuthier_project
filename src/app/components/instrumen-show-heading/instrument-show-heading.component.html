@@ -1,14 +1,16 @@
 <div class="c_instrumentoShowHeading">
     <p class="c_instrumentoShowHeading__Title">{{instrument.name}}</p>
 
-    <div class="c_instrumentoShowHeading__imgBox"      [ngClass]="{guitarra:instrument.instrumento==='guitarra' ,bajo:instrument.instrumento==='bajo' }">
-                <div class="carrousel" [ngClass]="{'paddingTopPrecio': instrument.precio}" id="carrousel1">
-                  <img [src]="instrument.imagePath+instrument.imageShowR" alt="">
-                  <img [src]="instrument.imagePath+instrument.imageShowR" alt="">
-                  <button type="button" class="back">&lsaquo;</button>
-                  <button type="button" class="forward">&rsaquo;</button>
-
-                </div>
+    <div [ngClass]="{'paddingTopPrecio': instrument.precio}">
+      <div class="c_instrumentoShowHeading__imgBox" [ngClass]="{'paddingTopPrecio': instrument.precio}"      [ngClass]="{guitarra:instrument.instrumento==='guitarra' ,bajo:instrument.instrumento==='bajo' }">
+                  <div class="carrousel" id="carrousel1">
+                    <img [src]="instrument.imagePath+instrument.imageShowR" alt="">
+                    <img [src]="instrument.imagePath+instrument.imageShowR" alt="">
+                    <button type="button" class="back">&lsaquo;</button>
+                    <button type="button" class="forward">&rsaquo;</button>
+  
+                  </div>
+      </div>
     </div>
 
     <div class="c_instrumentoShowHeading__precio" *ngIf="instrument.precio">
