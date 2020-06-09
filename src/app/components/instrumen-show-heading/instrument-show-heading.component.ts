@@ -13,6 +13,11 @@ export class InstrumentShowHeadingComponent implements OnInit {
 
   constructor() { }
 
+  isNumber(obj) {
+    // return true
+    return typeof obj==="number"
+  }
+
   ngOnInit() {
 
     console.log(this.instrument, this.instrument.imagePath);

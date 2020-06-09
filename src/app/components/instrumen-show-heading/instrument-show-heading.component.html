@@ -17,9 +17,17 @@
       </div>
     </div>
 
-    <div class="c_instrumentoShowHeading__precio" *ngIf="instrument.precio">
-      <h2>Precio</h2>
-      <h3>{{instrument.precio}} € </h3>
+    <div class="c_instrumentoShowHeading__details" *ngIf="instrument.precio">
+      <div class="c_instrumentoShowHeading__precio">
+        <h2>Precio</h2>
+        <h3 *ngIf="instrument.precio">{{instrument.precio}} € </h3>
+      </div>
+      <div class="c_instrumentoShowHeading__envio">
+        <h2>Gastos Envío</h2>
+        <h3 *ngIf="instrument.envio">{{instrument.envio}}<span
+                [style.display]="isNumber(instrument.envio) ?'inline':'none' "> €</span>
+        </h3>
+      </div>
     </div>
 </div>
 

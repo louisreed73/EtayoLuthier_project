@@ -14,17 +14,33 @@
       max-width: 100%;
     
     }
-    &__precio {
+    &__details {
       position:relative;
       bottom:0px;
-      height:50px;
+      // height:50px;
       width:100%;
-      // margin:.2rem 0;
-      // padding:1.5rem;
+      display:flex;
+      flex-flow:row wrap;
+      align-items:center;
+      justify-content:center;
+      background:#003453;
+      color:white;
+
+      
+    
+    }
+
+    &__precio, &__envio {
+      position:relative;
+      bottom:0px;
+      // height:50px;
+      // width:50%;
+      flex-basis: 58.6rem;
       display:flex;
       align-items:center;
       justify-content:center;
       background:#003453;
+      padding:.9rem 1rem;
       color:white;
       h2, h3 {
         font-size:1.45rem;
@@ -36,10 +52,30 @@
         }
 
       }
-      // z-index:0;
       
     
     }
+        &__envio {
+          background:white;     
+          color:#003453;
+                h2, h3 {
+        font-size:1em;
+        font-weight: 600;
+      }
+      h3 {
+        font-size:1.05em;
+     }
+
+        }
+
+        &__precio, &__envio {
+          @media (min-width:678px) {
+            line-height: 1.5rem;
+          flex-basis: initial;
+            width:50%;
+          }
+        }
+
 
     &__Title{
      font-size:1.6rem;

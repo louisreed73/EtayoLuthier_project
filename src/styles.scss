@@ -295,6 +295,7 @@ button {
     // position: absolute;
     display:inline;
     bottom: 0;
+    position:absolute;
     font-size: 1.65rem;
     width: 25px;
     height: 32px;
@@ -332,7 +333,7 @@ button {
 
 button.forward {
     // right:0;
-    margin-left:calc(100% - 50px);
+    margin-left:calc(100% - 25px);
     @media only screen and (min-width:678px) {
         margin-left:calc(100% - 46px);
 
