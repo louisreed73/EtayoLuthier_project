@@ -2,9 +2,9 @@ export class ServiceGuitarsKlein {
          private readonly guitars: object[] = [
            {
              id: 9,
-            instrumento: "guitarra",
+             instrumento: "guitarra",
              name: "Guitarra Etayo Klein Standard", //En pag Guitarras NOMBRE GUITARRA
-             tipo: "Guitarra eléctrica Klein Sólida de madera de Fresno.", //En pag Guitarras RESUMEN CARACTERISTICAS GUITARRA
+             tipo: "Guitarra eléctrica tipo Klein Sólida de madera de Fresno.", //En pag Guitarras RESUMEN CARACTERISTICAS GUITARRA
              woodTapa:
                "Tapa armónica de madera de Mongoy. Tapa trasera de Caoba.",
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
@@ -31,19 +31,16 @@ export class ServiceGuitarsKlein {
                  "Tapa armónica de madera de Mongoy.",
                  "Tapa trasera de madera de Caoba.",
                ],
-               Mástil: [
-                 "Madera de Caoba.",
-                  "Diapasón de ébano de 24' 75."
-                ],
+               Mástil: ["Madera de Caoba.", "Diapasón de ébano de 24' 75."],
                Componentes: [
                  "Puente tensor headless.",
                  "Cejuela de bloqueo Headless.",
                ],
                Pastillas: [
                  "Pastillas - Puente - Kent Armstrong Vintage 57 Humbucker.",
-                 "Pastillas - Mástil - ToneRider Single Coil Hot Classic."
-                ],
-              }
+                 "Pastillas - Mástil - ToneRider Single Coil Hot Classic.",
+               ],
+             },
            },
            {
              id: 0,
