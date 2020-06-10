@@ -4,7 +4,7 @@ export class ServiceGuitarsKlein {
              id: 9,
              instrumento: "guitarra",
              name: "Guitarra Etayo Klein Standard", //En pag Guitarras NOMBRE GUITARRA
-             tipo: "Guitarra eléctrica tipo Klein Sólida de madera de Fresno.", //En pag Guitarras RESUMEN CARACTERISTICAS GUITARRA
+             tipo: "Guitarra eléctrica tipo Klein Sólida en madera de Fresno.", //En pag Guitarras RESUMEN CARACTERISTICAS GUITARRA
              woodTapa:
                "Tapa armónica de madera de Mongoy. Tapa trasera de Caoba.",
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
