@@ -23,8 +23,9 @@ export class InstrumentShowHeadingComponent implements OnInit {
     console.log(this.instrument, this.instrument.imagePath);
 
     
-let botones = document.querySelectorAll("#carrousel1 button");
-let botones2 = document.querySelectorAll("#carrousel2 button");
+let botonBack = document.querySelector("#carrousel1 button.back");
+let botonForward = document.querySelector("#carrousel1 button.forward");
+// let botones2 = document.querySelectorAll("#carrousel1 button");
 
 let carrousel1 = new Carrousel(
   this.instrument.images,
@@ -32,10 +33,10 @@ let carrousel1 = new Carrousel(
   "#carrousel1"
 );
 
-botones[0].addEventListener("click", (e) =>
+botonBack.addEventListener("click", (e) =>
   carrousel1.setClick.call(carrousel1, false)
 );
-botones[1].addEventListener("click", (e) =>
+botonForward.addEventListener("click", (e) =>
   carrousel1.setClick.call(carrousel1, true)
 );
   }
