@@ -1,5 +1,9 @@
 
     <div header (window:resize)="onResize($event)" >
+        <!-- <div logo routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
+             ngIf="isDeskTop"></div> -->
+        <div logo routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
+             ></div>
         <ul  *ngIf="isDeskTop">
             <li routerLink="/home"  routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</li>
             <li routerLink="/guitars" routerLinkActive="active">Guitars</li>
@@ -7,8 +11,6 @@
             <li routerLink="/guitarsVenta" routerLinkActive="active">Venta</li>
             <li routerLink="/bass" routerLinkActive="active">Bass</li>
             <li routerLink="/contact" routerLinkActive="active">Contact</li>
-    <!--         <li routerLink="/pastillas" routerLinkActive="active">Pastillas</li>
-            <li routerLink="/maderas" routerLinkActive="active">Maderas</li> -->
         </ul>
         <div *ngIf="!isDeskTop">
             <div menumobile (click)="onMenu()">Menu</div>

@@ -26,7 +26,7 @@ export class Header1Component implements OnInit {
   }
 
   calculoW() {
-    if (this.wW >= 678) {
+    if (this.wW >= 768) {
       this.isDeskTop = true;
     } else {
              if(this.deployed) {

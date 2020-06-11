@@ -49,13 +49,32 @@
 
 }
 
+
 [menumobile] {
   position: absolute;
   top: -7px;
-  right: 0px;
+  right: 5px;
   padding: 2rem;
   z-index: 20;
   font-size: 1.8rem;
   font-weight: 600;
+
+}
+
+[logo] {
+    position: absolute;
+    color: gold;
+    top: 6.2px;
+    left: 3vw;
+    padding: 2rem;
+    width: 100px;
+    height: 15px;
+    background: black;
+    z-index: 20;
+    font-size: 1.8rem;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    background: url(/assets/images/backgrounds/etayoLuthierLogo.svg) no-repeat center/75%;
 
 }
