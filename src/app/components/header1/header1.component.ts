@@ -46,6 +46,15 @@ export class Header1Component implements OnInit {
     }, 250);
     l(ul);
   }
+  onMenuLogo() {
+    // l(this.deployed);
+    // let ul = document.querySelector("ul[mobile]")!;
+    // ul.classList.add("");
+    setTimeout(() => {
+      if(this.deployed) !this.deployed;
+    }, 250);
+    // l(ul);
+  }
   onLink() {
     this.onMenu()
   }
