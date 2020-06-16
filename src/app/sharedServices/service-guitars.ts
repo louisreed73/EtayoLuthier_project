@@ -8,9 +8,9 @@ export class ServiceGuitars {
              woodTapa: "Tapa de madera precompuesta Cebra",
              woodCuerpo: "Cuerpo sólido de maderas de Caoba y Nogal",
              clavijeroType: "Doble arco",
-             precio: 800,
+/*              precio: 800,
              //  envio:30,
-             envio: "- No incluidos -",
+             envio: "- No incluidos -", */
              imagePath: "./../../assets/images/Guitarras/Guitar_01/",
              images: [
                "Guit1_Foto3_Comp20-1024x682.jpg",
@@ -44,9 +44,9 @@ export class ServiceGuitars {
              woodTapa: "Tapa de madera de Palo Rojo",
              woodCuerpo: "Cuerpo sólido de maderas de Caoba y Nogal",
              clavijeroType: "Doble arco",
-             precio: 800,
+/*              precio: 800,
              //  envio:30,
-             envio: "- No incluidos -",
+             envio: "- No incluidos -", */
              imagePath: "./../../assets/images/Guitarras/Guitar_02/",
              images: [
                "Guit2_Foto8_Comp20-1024x682.jpg",

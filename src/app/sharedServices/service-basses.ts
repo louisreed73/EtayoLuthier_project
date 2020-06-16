@@ -9,9 +9,9 @@ export class ServiceBasses {
              woodCuerpo:
                "Cuerpo sólido de madera de Fresno  y Tapa trasera de madera de Tilo",
              clavijeroType: "Doble arco",
-             precio: 800,
+/*              precio: 800,
              //  envio:30,
-             envio: "- No incluidos -",
+             envio: "- No incluidos -", */
              imagePath: "./../../assets/images/Bajos/Bass_01/",
              images: [
                "Bass1_Foto5_Comp20-1440x960.jpg",
