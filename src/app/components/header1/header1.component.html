@@ -7,11 +7,11 @@
              ></div>
         <ul  *ngIf="isDeskTop">
             <li routerLink="/home"  routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</li>
-            <li routerLink="/guitars" routerLinkActive="active">Guitars</li>
-            <li routerLink="/guitarsKlein" routerLinkActive="active">Tipo Klein</li>
-            <li routerLink="/guitarsVenta" routerLinkActive="active">Venta</li>
-            <li routerLink="/bass" routerLinkActive="active">Bass</li>
-            <li routerLink="/contact" routerLinkActive="active">Contact</li>
+            <li routerLink="/guitarras" routerLinkActive="active">Guitarras</li>
+            <li routerLink="/guitarrasKlein" routerLinkActive="active">Tipo Klein</li>
+            <li routerLink="/guitarrasVenta" routerLinkActive="active">Venta</li>
+            <li routerLink="/bajos" routerLinkActive="active">Bajos</li>
+            <li routerLink="/contacto" routerLinkActive="active">Contacto</li>
         </ul>
         <div *ngIf="!isDeskTop">
             <div menumobile (click)="onMenu()">Menu</div>
@@ -19,11 +19,11 @@
                         <ul mobile (click)="onLink()">
                             <li routerLink="/home"  routerLinkActive="active"
                                 [routerLinkActiveOptions]="{exact:true}">Home</li>
-                            <li routerLink="/guitars" routerLinkActive="active">Guitars</li>
-                            <li routerLink="/guitarsKlein" routerLinkActive="active">Tipo Klein</li>
-                            <li routerLink="/guitarsVenta" routerLinkActive="active">Venta</li>
-                            <li routerLink="/bass" routerLinkActive="active">Bass</li>
-                            <li routerLink="/contact" routerLinkActive="active">Contact</li>
+                            <li routerLink="/guitarras" routerLinkActive="active">Guitarras</li>
+                            <li routerLink="/guitarrasKlein" routerLinkActive="active">Tipo Klein</li>
+                            <li routerLink="/guitarrasVenta" routerLinkActive="active">Venta</li>
+                            <li routerLink="/bajos" routerLinkActive="active">Bajos</li>
+                            <li routerLink="/contacto" routerLinkActive="active">Contacto</li>
                     <!--         <li routerLink="/pastillas" routerLinkActive="active">Pastillas</li>
                             <li routerLink="/maderas" routerLinkActive="active">Maderas</li> -->
                         </ul>

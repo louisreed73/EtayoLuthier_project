@@ -41,15 +41,15 @@ const AppRoutes:Routes=[
 {path:"", redirectTo:"home", pathMatch:"full"},
 {path:"", component:Layout1Component, children:[
   {path:"home", component:HomeComponent},
-  {path:"guitars", component:GuitarsComponent},
-  {path:"guitarsKlein", component:GuitarsKleinComponent},
-  {path:"guitarsKlein/:name", component:GuitarKleinShowComponent},
-  {path:"guitarsVenta", component:GuitarsVentaComponent},
-  {path:"guitarsVenta/:name", component:GuitarVentaShowComponent},
-  {path:"guitars/:name", component:GuitarShowComponent},
-  {path:"bass", component:BassesComponent},
-  {path:"bass/:name", component:BassShowComponent},
-  {path:"contact", component:ContactComponent},
+  {path:"guitarras", component:GuitarsComponent},
+  {path:"guitarrasKlein", component:GuitarsKleinComponent},
+  {path:"guitarrasKlein/:name", component:GuitarKleinShowComponent},
+  {path:"guitarrasVenta", component:GuitarsVentaComponent},
+  {path:"guitarrasVenta/:name", component:GuitarVentaShowComponent},
+  {path:"guitarras/:name", component:GuitarShowComponent},
+  {path:"bajos", component:BassesComponent},
+  {path:"bajos/:name", component:BassShowComponent},
+  {path:"contacto", component:ContactComponent},
 ]}
 ]
 
