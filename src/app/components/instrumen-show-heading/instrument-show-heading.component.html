@@ -7,8 +7,14 @@
            
            [ngClass]="{guitarra:instrument.instrumento==='guitarra' ,bajo:instrument.instrumento==='bajo' }">
                   <div class="carrousel" id="carrousel1">
-                    <img [src]="instrument.imagePath+instrument.imageShowR" alt="">
-                    <img [src]="instrument.imagePath+instrument.imageShowR" alt="">
+<!--                     <img [src]="instrument.imagePath+instrument.imageShowR" alt="">
+                    <img [src]="instrument.imagePath+instrument.imageShowR" alt=""> -->
+
+                      <div class="imagenes">
+                        <img *ngFor="let image of instrument.images" [src]="instrument.imagePath+image"
+                             alt="">
+                      </div>
+
                     <button type="button" class="back">&lsaquo;</button>
                     <button type="button" class="forward">&rsaquo;</button>
   

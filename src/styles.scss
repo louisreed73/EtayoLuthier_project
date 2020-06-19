@@ -247,6 +247,8 @@ a {
     overflow: hidden;
     max-width: 850px;
 
+    
+
         
 
     
@@ -274,6 +276,8 @@ img {
     object-fit:contain;
     transition: opacity .5s ease-in-out;
 
+
+
     @media only screen and (min-width:768px) {
             height:100%;
             width:auto;
@@ -283,6 +287,12 @@ img {
 
 
 }
+
+/* .imagenes :first-child {
+    opacity:1;
+} */
+
+
 
 
 button {

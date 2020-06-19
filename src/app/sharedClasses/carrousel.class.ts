@@ -5,6 +5,7 @@ export class Carrousel {
   ruta: string;
   selector: any;
   count: number = 0;
+  init=true;
   // active=0;
   initiated: boolean = false;
 
@@ -13,34 +14,89 @@ export class Carrousel {
     this.ruta = r;
     this.selector = document.querySelector(`${s}`);
 
-    this.selector.querySelector("img").classList.add("active");
+        console.log("Verdad!!!!");
+        // console.log(this.selector.querySelector(".imagenes img"));
+        setTimeout(()=>{
+          console.log(this.selector.querySelector(".imagenes img").style.opacity=1);
+
+        },0)
+
+
+    // this.selector.querySelector("img").classList.add("active");
   }
+
+
+
 
   setClick(forward: boolean) {
-    if (forward) {
-      this.count++;
-    } else {
-      this.count--;
+    if(this.init) {
+      this.init = !this.init;
+
+    console.log("Solo una vez!!!!")
+
     }
+    
+    // this.init=false;
+                          if (
+                            !this.init &&
+                            !!this.selector.querySelector(".imagenes img").style
+                              .opacity
+                          ) {
+                            // console.log("Venga!!!!")
 
-    if (this.count < 0) {
-      this.count = this.datosFotos.length - 1;
-    }
 
-    if (this.count > this.datosFotos.length - 1) {
-      this.count = 0;
-    }
-    l(this.selector)
-    let imagenes=this.selector.querySelectorAll("img");
+                              this.selector
+                                .querySelector(".imagenes img")
+                                .removeAttribute("style");
+                            
+                          }
 
-    for (let elem of imagenes) {
-      elem.classList.toggle("active");
-    }
 
-    let source = this.ruta + this.datosFotos[this.count];
-    let imgActive = this.selector.querySelector(" img.active");
-    l(imgActive, this.selector);
 
-    imgActive.setAttribute("src", source);
-  }
+                               if (forward) {
+                                 this.count++;
+                               } else {
+                                 this.count--;
+                               }
+
+                               if (this.count < 0) {
+                                 this.count = this.datosFotos.length - 1;
+                               }
+
+                               if (this.count > this.datosFotos.length - 1) {
+                                 this.count = 0;
+                               }
+                               l(this.selector);
+        /*                        let imagenes = this.selector.querySelectorAll(
+                                 "img"
+                               ); */
+
+                               let source =
+                                 this.ruta + this.datosFotos[this.count];
+
+                               let imgActive = this.selector.querySelector(
+                                 "img.active"
+                               );
+                               let select = this.selector.querySelector(
+                                 `.imagenes > [src="${source}"]`
+                               );
+                               let selectNo = this.selector.querySelectorAll(
+                                 `.imagenes > :not([src="${source}"])`
+                               );
+                               // let notimgActive = this.selector.querySelector(":not(.active)");
+                               l(
+                                 source,
+                                 "selecccion",
+                                 select,
+                                 `[src="${source}"]`,
+                                 selectNo
+                               );
+
+                               for (let elem of selectNo) {
+                                 elem.classList.remove("active");
+                               }
+
+                               // imgActive.setAttribute("src", source);
+                               select.classList.toggle("active");
+                             }
 }

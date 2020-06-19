@@ -13,7 +13,7 @@ export class ServiceGuitarsKlein {
              precio: 800,
              //  envio:30,
              envio: "- No incluidos -",
-             imagePath: "./../../assets/images/GuitarrasVenta/Guitar_01/",
+             imagePath: "../../assets/images/GuitarrasVenta/Guitar_01/",
              images: [
                "GuitVenta1_Foto1_Comp20-1500x844.jpg",
                "GuitVenta1_Foto2_Comp20-1500x844.jpg",
@@ -51,7 +51,7 @@ export class ServiceGuitarsKlein {
              woodTapa: "Tapa de madera de Fresno",
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
-             imagePath: "./../../assets/images/GuitarrasKlein/Guitar_01/",
+             imagePath: "../../assets/images/GuitarrasKlein/Guitar_01/",
              images: [
                "GuitKlein1_Foto2_Comp20-570x380.jpg",
                "GuitKlein1_Foto1_Comp20-570x380.jpg",
@@ -78,7 +78,7 @@ export class ServiceGuitarsKlein {
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
              horizontal: true,
-             imagePath: "./../../assets/images/GuitarrasKlein/Guitar_02/",
+             imagePath: "../../assets/images/GuitarrasKlein/Guitar_02/",
              images: [
                "GuitKlein2_Foto2_Comp20-1200x900.jpg",
                "GuitKlein2_Foto1_Comp20-1200x900.jpg",
@@ -113,7 +113,7 @@ export class ServiceGuitarsKlein {
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
              horizontal: true,
-             imagePath: "./../../assets/images/GuitarrasKlein/Guitar_03/",
+             imagePath: "../../assets/images/GuitarrasKlein/Guitar_03/",
              images: [
                "GuitKlein3_Foto2_Comp20-1200x900.jpg",
                "GuitKlein3_Foto1_Comp20-1200x900.jpg",
@@ -147,7 +147,7 @@ export class ServiceGuitarsKlein {
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
              horizontal: true,
-             imagePath: "./../../assets/images/GuitarrasKlein/Guitar_04/",
+             imagePath: "../../assets/images/GuitarrasKlein/Guitar_04/",
              images: [
                "GuitKlein4_Foto2_Comp20-1200x900.jpg",
                "GuitKlein4_Foto1_Comp20-1374x933.jpeg",
@@ -180,7 +180,7 @@ export class ServiceGuitarsKlein {
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
              horizontal: true,
-             imagePath: "./../../assets/images/GuitarrasKlein/Guitar_05/",
+             imagePath: "../../assets/images/GuitarrasKlein/Guitar_05/",
              images: [
                "GuitKlein5_Foto2_Comp20-1200x900.jpg",
                "GuitKlein5_Foto1_Comp20-1200x900.jpg",
@@ -207,7 +207,7 @@ export class ServiceGuitarsKlein {
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
              //  horizontal: true,
-             imagePath: "./../../assets/images/GuitarrasKlein/Guitar_06/",
+             imagePath: "../../assets/images/GuitarrasKlein/Guitar_06/",
              images: [
                "GuitKlein6_Foto2_Comp20-1200x720.jpg",
                "GuitKlein6_Foto1_Comp20-1200x720.jpg",
@@ -239,7 +239,7 @@ export class ServiceGuitarsKlein {
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
              horizontal: true,
-             imagePath: "./../../assets/images/GuitarrasKlein/Guitar_07/",
+             imagePath: "../../assets/images/GuitarrasKlein/Guitar_07/",
              images: [
                "GuitKlein7_Foto1_Comp20-1200x900.jpg",
                "GuitKlein7_Foto2_Comp20-1200x900.jpg",
@@ -275,7 +275,7 @@ export class ServiceGuitarsKlein {
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
              horizontal: true,
-             imagePath: "./../../assets/images/GuitarrasKlein/Guitar_08/",
+             imagePath: "../../assets/images/GuitarrasKlein/Guitar_08/",
              images: [
                "GuitKlein8_Foto2_Comp20-1200x900.jpg",
                "GuitKlein8_Foto3_Comp20-1200x900.jpg",
@@ -307,7 +307,7 @@ export class ServiceGuitarsKlein {
              woodCuerpo: "Cuerpo sólido de madera de Sapelly",
              clavijeroType: "Doble arco",
              horizontal: true,
-             imagePath: "./../../assets/images/GuitarrasKlein/Guitar_09/",
+             imagePath: "../../assets/images/GuitarrasKlein/Guitar_09/",
              images: [
                "GuitKlein9_Foto2_Comp20-1200x900.jpg",
                "GuitKlein9_Foto3_Comp20-1200x900.jpg",

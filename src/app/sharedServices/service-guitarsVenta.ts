@@ -13,7 +13,7 @@ export class ServiceGuitarsVenta {
              precio: 800,
              //  envio:30,
              envio: "- No incluidos -",
-             imagePath: "./../../assets/images/GuitarrasVenta/Guitar_01/",
+             imagePath: "../../assets/images/GuitarrasVenta/Guitar_01/",
              images: [
                "GuitVenta1_Foto1_Comp20-1500x844.jpg",
                "GuitVenta1_Foto2_Comp20-1500x844.jpg",

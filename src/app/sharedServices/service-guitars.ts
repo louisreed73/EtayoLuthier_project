@@ -11,7 +11,7 @@ export class ServiceGuitars {
 /*              precio: 800,
              //  envio:30,
              envio: "- No incluidos -", */
-             imagePath: "./../../assets/images/Guitarras/Guitar_01/",
+             imagePath: "../../assets/images/Guitarras/Guitar_01/",
              images: [
                "Guit1_Foto3_Comp20-1024x682.jpg",
                "Guit1_Foto2_Comp20-1024x682.jpg",
@@ -47,7 +47,7 @@ export class ServiceGuitars {
 /*              precio: 800,
              //  envio:30,
              envio: "- No incluidos -", */
-             imagePath: "./../../assets/images/Guitarras/Guitar_02/",
+             imagePath: "../../assets/images/Guitarras/Guitar_02/",
              images: [
                "Guit2_Foto8_Comp20-1024x682.jpg",
                "Guit2_Foto2_Comp20-1024x682.jpg",
@@ -86,7 +86,7 @@ export class ServiceGuitars {
                "Tapa de madera de Amaranto y Caoba con incrustaciones en Arce",
              woodCuerpo: "Cuerpo sólido de maderas de Caoba y Nogal",
              clavijeroType: "Doble arco",
-             imagePath: "./../../assets/images/Guitarras/Guitar_03/",
+             imagePath: "../../assets/images/Guitarras/Guitar_03/",
              images: [
                "Guit3_Foto4_Comp20-1024x682.jpg",
                "Guit3_Foto2_Comp20-1024x682.jpg",
@@ -132,7 +132,7 @@ export class ServiceGuitars {
                "Cuerpo con tapa delantera de madera de Sapely y trasera de madera de Fresno",
              woodCuerpo: "Cuerpo sólido de maderas de Caoba y Nogal",
              clavijeroType: "Doble arco",
-             imagePath: "./../../assets/images/Guitarras/Guitar_04/",
+             imagePath: "../../assets/images/Guitarras/Guitar_04/",
              images: [
                "Guit4_Foto7_Comp20-1024x682.jpg",
                "Guit4_Foto2_Comp20-1024x682.jpg",

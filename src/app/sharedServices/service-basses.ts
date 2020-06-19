@@ -12,7 +12,7 @@ export class ServiceBasses {
 /*              precio: 800,
              //  envio:30,
              envio: "- No incluidos -", */
-             imagePath: "./../../assets/images/Bajos/Bass_01/",
+             imagePath: "../../assets/images/Bajos/Bass_01/",
              images: [
                "Bass1_Foto5_Comp20-1440x960.jpg",
                "Bass1_Foto2_Comp20-1440x960.jpg",
@@ -51,7 +51,7 @@ export class ServiceBasses {
              woodCuerpo: "Cuerpo de madera de Fresno, Amaranto y Olmo spalted",
              woodType: "Alce",
              clavijeroType: "Doble arco",
-             imagePath: "./../../assets/images/Bajos/Bass_02/",
+             imagePath: "../../assets/images/Bajos/Bass_02/",
              images: [
                "Bass2_Foto7_Comp20-1440x960.jpg",
                "Bass2_Foto2_Comp20-1440x960.jpg",
@@ -88,7 +88,7 @@ export class ServiceBasses {
              woodCuerpo:
                "Cuerpo de madera de Fresno y tapa trasera de madera de Cebrano",
              clavijeroType: "Doble arco",
-             imagePath: "./../../assets/images/Bajos/Bass_03/",
+             imagePath: "../../assets/images/Bajos/Bass_03/",
              images: [
                "Bass3_Foto8_Comp20-1440x960.jpg",
                "Bass3_Foto2_Comp20-1440x960.jpg",
@@ -126,7 +126,7 @@ export class ServiceBasses {
              woodTapa: "Cuerpo de madera de Aliso",
              woodCuerpo: "Mástil alistonado en madera de Wengue y Arce",
              clavijeroType: "XXXXXXXXXX",
-             imagePath: "./../../assets/images/Bajos/Bass_04/",
+             imagePath: "../../assets/images/Bajos/Bass_04/",
              images: [
                "Bass4_Foto14_Comp20-1440x960.jpg",
                "Bass4_Foto2_Comp20-1440x960.jpg",
