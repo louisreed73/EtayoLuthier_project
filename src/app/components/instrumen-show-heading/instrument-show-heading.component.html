@@ -11,9 +11,9 @@
                     <img [src]="instrument.imagePath+instrument.imageShowR" alt=""> -->
 
                       <div class="imagenes">
-                        <img *ngFor="let image of instrument.images" [src]="instrument.imagePath+image"
+                        <img rel="preload" *ngFor="let image of instrument.images" [src]="instrument.imagePath+image"
                              alt="">
-                      </div>
+                      </div> 
 
                     <button type="button" class="back">&lsaquo;</button>
                     <button type="button" class="forward">&rsaquo;</button>
