@@ -6,7 +6,11 @@
 
         <p class="c_Guitar__Title">{{guitar.name}}</p>
         <p class="c_Guitar__PriceReal" *ngIf="guitar.precio">{{guitar.precio}} €</p>
+        <p class="c_Guitar__Vendida" *ngIf="guitar.vendido">VENDIDA</p>
+        
         <p class="c_Guitar__Price">{{guitar.tipo}}</p>
+        <p class="c_Guitar__Nueva" *ngIf="guitar.nueva">GUITARRA NUEVA VENTA</p>
+
 <!--         <p class="c_Guitar__woodTapa">{{guitar.woodTapa}}</p>
         <p class="c_Guitar__woodCuerpo">{{guitar.woodCuerpo}}</p> -->
     </div>

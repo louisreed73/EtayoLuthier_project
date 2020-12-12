@@ -16,62 +16,100 @@
             width: 100%;
             padding: 2rem;
             @include basicF();
-            justify-content:flex-start;
+            justify-content: flex-start;
             align-items: flex-start;
             flex-flow: column wrap;
-            min-height:17rem;
-    
-           *:not(.c_Guitar__Title) {
+            min-height: 18rem;
+
+            *:not(.c_Guitar__Title) {
                 margin-bottom: 1.25rem;
-    
+
             }
-    
-             :first-child {
+
+            :first-child {
                 font-size: 1.2em;
                 font-weight: 600;
             }
-    
+
             :last-child {
                 margin-bottom: 1.5rem;
             }
-    
+
         }
 
         &__Title {
-        //    text-align:center;
-           margin-bottom:1.5rem;
+            //    text-align:center;
+            margin-bottom: 1.5rem;
         }
 
         &__BoxImage {
             flex: 1;
             height: 12rem;
-                &:active,
-                &:focus {
-                  outline: none;
-                }
+
+            &:active,
+            &:focus {
+                outline: none;
+            }
         }
 
         &__PriceReal {
             font-size: 1.5rem;
-            background:#00253e;
-            color:white;
-            padding:.5rem 5rem;
+            background: #00253e;
+            color: white;
+            padding: .5rem 5rem;
             // margin-left:auto;
         }
-        
-        
+
+        &__Vendida {
+            font-size: 1.5rem;
+            background: red;
+            color: white;
+            font-weight: 500;
+            letter-spacing: .7rem;
+            padding: 0.5rem 0rem 0.5rem;
+            // border: 1.7px solid green;
+            width: 100%;
+            // border-radius: 7px;
+            text-align: center;
+            // margin-top:1rem;
+            transform: skewY(-2deg);
+
+            +* {
+                margin-top: .75rem;
+            }
+
+            // margin-left:auto;
+        }
+
+        &__Nueva {
+            font-size: 1.5rem;
+            background: rgb(4, 107, 13);
+            color: white;
+            font-weight: 500;
+            letter-spacing: 0.129rem;
+            padding: 0.5rem 0rem 0.5rem;
+            // border: 1.7px solid green;
+            width: 100%;
+            // border-radius: 7px;
+            text-align: center;
+            margin-top: 1rem;
+            transform: skewY(-3deg);
+            // margin-left:auto;
+        }
+
+
     }
-    
-    
+
+
     img {
-/*         height: auto;
+        /*         height: auto;
         width: auto; */
         height: 200px;
         width: 300px;
-        max-width:100%;
+        max-width: 100%;
         margin-bottom: 1rem;
-        cursor:pointer;
-        object-fit:cover;
+        cursor: pointer;
+        object-fit: cover;
         // flex:none;
     }
 
