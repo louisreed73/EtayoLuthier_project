@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bass-show.component.scss']
 })
 export class BassShowComponent implements OnInit {
-  name:string;
+  id:number;
   basses:any[];
   bass:any;
 
@@ -18,14 +18,14 @@ export class BassShowComponent implements OnInit {
     window.scrollTo(0, 0);
 
     // console.log(+this.router.snapshot.params.id);
-    this.name=this.router.snapshot.params.name;
-    console.log(this.servicioBasses.getBasses());
+    this.id=+this.router.snapshot.params.id;
+    console.log(this.id)
     this.basses=this.servicioBasses.getBasses();
-    let _bass=this.basses.filter(elem=>{
-      return elem.name===this.name;
+    let _bass=this.basses.find(elem=>{
+      return elem.id===this.id;
     })
 
-    this.bass=_bass[0]
+    this.bass=_bass;
     console.log(this.bass);
   }
 

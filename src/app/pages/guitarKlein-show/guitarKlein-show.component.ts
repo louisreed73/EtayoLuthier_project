@@ -9,6 +9,7 @@ import { ActivatedRoute } from '@angular/router';
 
 
 
+
 @Component({
   selector: 'app-guitar-show',
   templateUrl: './guitarKlein-show.component.html',
@@ -16,7 +17,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class GuitarKleinShowComponent implements OnInit {
 
-  name:string;
+  id:number;
   guitarras:any[];
   guitarra:any;
 
@@ -27,15 +28,15 @@ export class GuitarKleinShowComponent implements OnInit {
 
 
     // console.log(+this.router.snapshot.params.id);
-    this.name=this.router.snapshot.params.name;
-    // console.log(this.servicioGuitars.getGuitars());
+    this.id= +this.router.snapshot.params.id;
     this.guitarras=this.servicioGuitars.getGuitarsKlein();
-    let _guitarra=this.guitarras.filter(elem=>{
-      return elem.name===this.name;
+    console.log(this.guitarras)
+    let _guitarra=this.guitarras.find(elem=>{
+      return elem.id===this.id;
     })
 
-    this.guitarra=_guitarra[0];
-    console.log(this.guitarra);
+    // console.log(_guitarra);
+    this.guitarra=_guitarra;  
   }
 
 }

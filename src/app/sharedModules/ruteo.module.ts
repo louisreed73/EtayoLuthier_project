@@ -43,12 +43,12 @@ const AppRoutes:Routes=[
   {path:"home", component:HomeComponent},
   {path:"guitarras", component:GuitarsComponent},
   {path:"guitarrasKlein", component:GuitarsKleinComponent},
-  {path:"guitarrasKlein/:name", component:GuitarKleinShowComponent},
+  {path:"guitarrasKlein/:id", component:GuitarKleinShowComponent},
   {path:"guitarrasVenta", component:GuitarsVentaComponent},
-  {path:"guitarrasVenta/:name", component:GuitarVentaShowComponent},
-  {path:"guitarras/:name", component:GuitarShowComponent},
+  {path:"guitarrasVenta/:id", component:GuitarVentaShowComponent},
+  {path:"guitarras/:id", component:GuitarShowComponent},
   {path:"bajos", component:BassesComponent},
-  {path:"bajos/:name", component:BassShowComponent},
+  {path:"bajos/:id", component:BassShowComponent},
   {path:"contacto", component:ContactComponent},
 ]}
 ]

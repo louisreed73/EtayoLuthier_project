@@ -16,7 +16,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class GuitarVentaShowComponent implements OnInit {
 
-  name:string;
+  id:number;
   guitarras:any[];
   guitarra:any;
 
@@ -27,14 +27,14 @@ export class GuitarVentaShowComponent implements OnInit {
 
 
     // console.log(+this.router.snapshot.params.id);
-    this.name=this.router.snapshot.params.name;
+    this.id=+this.router.snapshot.params.id;
     // console.log(this.servicioGuitars.getGuitars());
     this.guitarras=this.servicioGuitars.getGuitarsVenta();
-    let _guitarra=this.guitarras.filter(elem=>{
-      return elem.name===this.name;
+    let _guitarra=this.guitarras.find(elem=>{
+      return elem.id===this.id;
     })
 
-    this.guitarra=_guitarra[0];
+    this.guitarra=_guitarra;
     console.log(this.guitarra);
   }
 
