@@ -15,15 +15,15 @@ export class ServiceGuitarsVenta {
       envio: "- No incluidos -",
       imagePath: "../../assets/images/GuitarrasVenta/Guitar_02/",
       images: [
-        "GuitVenta2_Foto1_Comp20-1080x607.jpg",
-        "GuitVenta2_Foto2_Comp20-1500x844.jpg",
-        "GuitVenta2_Foto3_Comp20-1080x607.jpg",
-        "GuitVenta2_Foto4_Comp20-675x900.jpg",
-        "GuitVenta2_Foto5_Comp20-1080x607.jpg",
-        "GuitVenta2_Foto6_Comp20-1080x607.jpg",
+        "GuitVenta2_Foto1_Comp20-1200x900.jpg",
+        "GuitVenta2_Foto2_Comp20-1200x900.jpg",
+        "GuitVenta2_Foto3_Comp20-1200x900.jpg",
+        "GuitVenta2_Foto4_Comp20-1200x900.jpg",
+        "GuitVenta2_Foto5_Comp20-1200x900.jpg",
+        "GuitVenta2_Foto6_Comp20-1200x900.jpg",
       ],
-      imageList: "GuitVenta2_Foto1_Comp20-1080x607.jpg",
-      imageShowR: "GuitVenta2_Foto3_Comp20-1080x607.jpg",
+      imageList: "GuitVenta2_Foto1_Comp20-1200x900.jpg",
+      imageShowR: "GuitVenta2_Foto3_Comp20-1200x900.jpg",
       chars: {
         //En pag Show Guitars TabsCARACTERISTICAS GUITARRA
         Cuerpo: [
