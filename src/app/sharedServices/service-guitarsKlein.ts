@@ -55,7 +55,7 @@ export class ServiceGuitarsKlein {
       // precio: 800,
       // vendido: true,
       //  envio:30,
-      // nueva: true,
+      nueva: false,
       envio: "- No incluidos -",
       imagePath: "../../assets/images/GuitarrasVenta/Guitar_01/",
       images: [
