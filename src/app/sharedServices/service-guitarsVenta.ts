@@ -86,6 +86,90 @@ export class ServiceGuitarsVenta {
         ],
       },
     },
+    {
+      id: 2,
+      instrumento: "guitarra",
+      name: "Guitarra tipo Klein Standard", //En pag Guitarras NOMBRE GUITARRA
+      tipo: "Guitarra eléctrica tipo Klein Sólida en madera de Fresno.", //En pag Guitarras RESUMEN CARACTERISTICAS GUITARRA
+      woodTapa: "Tapa armónica de madera de Mongoy. Tapa trasera de Caoba.",
+      woodCuerpo: "Cuerpo sólido de madera de Sapelly",
+      clavijeroType: "Doble arco",
+      //  horizontal:true,
+      precio: null,
+      vendido: false,
+      //  envio:30,
+      envio: "- No incluidos -",
+      imagePath: "../../assets/images/GuitarrasVenta/Guitar_03/",
+      images: [
+        "GuitVenta3_Foto1_Comp20-1440x960.jpg",
+        "GuitVenta3_Foto2_Comp20-1440x960.jpg",
+        "GuitVenta3_Foto3_Comp20-1440x960.jpg",
+        "GuitVenta3_Foto4_Comp20-1440x960.jpg",
+        "GuitVenta3_Foto5_Comp20-1440x960.jpg",
+        "GuitVenta3_Foto6_Comp20-1440x960.jpg",
+      ],
+      imageList: "GuitVenta3_Foto1_Comp20-1440x960.jpg",
+      imageShowR: "GuitVenta3_Foto1_Comp20-1440x960.jpg",
+      chars: {
+        //En pag Show Guitars TabsCARACTERISTICAS GUITARRA
+        Cuerpo: [
+          "Cuerpo Sólido de madera de Fresno.",
+          "Tapa armónica de madera de Mongoy.",
+          "Tapa trasera de madera de Caoba.",
+        ],
+        Mástil: ["Madera de Caoba.", "Diapasón de ébano de 24' 75."],
+        Componentes: [
+          "Puente tensor headless.",
+          "Cejuela de bloqueo Headless.",
+        ],
+        Pastillas: [
+          "Pastillas - Puente - Kent Armstrong Vintage 57 Humbucker.",
+          "Pastillas - Mástil - ToneRider Single Coil Hot Classic.",
+        ],
+      },
+    },
+    {
+      id: 3,
+      instrumento: "guitarra",
+      name: "Guitarra tipo Klein Standard", //En pag Guitarras NOMBRE GUITARRA
+      tipo: "Guitarra eléctrica tipo Klein Sólida en madera de Fresno.", //En pag Guitarras RESUMEN CARACTERISTICAS GUITARRA
+      woodTapa: "Tapa armónica de madera de Mongoy. Tapa trasera de Caoba.",
+      woodCuerpo: "Cuerpo sólido de madera de Sapelly",
+      clavijeroType: "Doble arco",
+      //  horizontal:true,
+      precio: null,
+      vendido: false,
+      //  envio:30,
+      envio: "- No incluidos -",
+      imagePath: "../../assets/images/GuitarrasVenta/Guitar_04/",
+      images: [
+        "GuitVenta4_Foto1_Comp20-1440x960.jpg",
+        "GuitVenta4_Foto2_Comp20-1440x960.jpg",
+        "GuitVenta4_Foto3_Comp20-1440x960.jpg",
+        "GuitVenta4_Foto4_Comp20-1440x960.jpg",
+        "GuitVenta4_Foto5_Comp20-1440x960.jpg",
+        "GuitVenta4_Foto6_Comp20-1440x960.jpg",
+      ],
+      imageList: "GuitVenta4_Foto1_Comp20-1440x960.jpg",
+      imageShowR: "GuitVenta4_Foto1_Comp20-1440x960.jpg",
+      chars: {
+        //En pag Show Guitars TabsCARACTERISTICAS GUITARRA
+        Cuerpo: [
+          "Cuerpo Sólido de madera de Fresno.",
+          "Tapa armónica de madera de Mongoy.",
+          "Tapa trasera de madera de Caoba.",
+        ],
+        Mástil: ["Madera de Caoba.", "Diapasón de ébano de 24' 75."],
+        Componentes: [
+          "Puente tensor headless.",
+          "Cejuela de bloqueo Headless.",
+        ],
+        Pastillas: [
+          "Pastillas - Puente - Kent Armstrong Vintage 57 Humbucker.",
+          "Pastillas - Mástil - ToneRider Single Coil Hot Classic.",
+        ],
+      },
+    },
   ];
 
   getGuitarsVenta() {

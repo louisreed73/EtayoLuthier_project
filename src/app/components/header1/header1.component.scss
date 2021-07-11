@@ -23,6 +23,7 @@
     padding: 1rem 1.5rem .5rem;
     cursor: pointer;
     transition: all .2s ease-in-out;
+    user-select: none;
 
     &:not(.active):hover {
       color: white;

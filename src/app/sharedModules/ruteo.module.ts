@@ -31,6 +31,7 @@ import {
   Routes,
   RouterModule
  } from '@angular/router';
+import { BrowserModule } from '@angular/platform-browser';
 
 
  
@@ -75,7 +76,11 @@ const AppRoutes:Routes=[
     InstrumentShowCharsComponent
 
   ],
-  imports: [CommonModule, RouterModule.forRoot(AppRoutes)],
+  imports: [
+    BrowserModule,
+    CommonModule, 
+    RouterModule.forRoot(AppRoutes)
+  ],
   exports: [RouterModule],
   providers: [ServiceGuitars, ServiceGuitarsKlein, ServiceGuitarsVenta, ServiceBasses]
 })
