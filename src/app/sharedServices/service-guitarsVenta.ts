@@ -113,18 +113,19 @@ export class ServiceGuitarsVenta {
       chars: {
         //En pag Show Guitars TabsCARACTERISTICAS GUITARRA
         Cuerpo: [
-          "Cuerpo Sólido de madera de Fresno.",
-          "Tapa armónica de madera de Mongoy.",
-          "Tapa trasera de madera de Caoba.",
+          "Cuerpo semiacustico",
+          "Tapa armónica de Aliso",
+          "Fondo de Bubinga",
+          "Aros de Arce.",
         ],
-        Mástil: ["Madera de Caoba.", "Diapasón de ébano de 24' 75."],
+        Mástil: ["Mango de Caoba.", "Diapasón de Ébano."],
         Componentes: [
-          "Puente tensor headless.",
+          "Puente de afinación Headless.",
           "Cejuela de bloqueo Headless.",
         ],
         Pastillas: [
-          "Pastillas - Puente - Kent Armstrong Vintage 57 Humbucker.",
-          "Pastillas - Mástil - ToneRider Single Coil Hot Classic.",
+          "Pastillas - Humbucker posición puente",
+          "Pastillas - Gibson 490 R.",
         ],
       },
     },
@@ -155,18 +156,20 @@ export class ServiceGuitarsVenta {
       chars: {
         //En pag Show Guitars TabsCARACTERISTICAS GUITARRA
         Cuerpo: [
-          "Cuerpo Sólido de madera de Fresno.",
-          "Tapa armónica de madera de Mongoy.",
-          "Tapa trasera de madera de Caoba.",
+          "Cuerpo Semihueco de madera de Caoba.",
+          "Tapa armónica de palo de India.",
         ],
-        Mástil: ["Madera de Caoba.", "Diapasón de ébano de 24' 75."],
+        Mástil: [
+          "Mango de madera de Arce Flameado.",
+          "Diapasón de madera de Caoba.",
+        ],
         Componentes: [
-          "Puente tensor headless.",
+          "Puente de afinación Headless.",
           "Cejuela de bloqueo Headless.",
         ],
         Pastillas: [
-          "Pastillas - Puente - Kent Armstrong Vintage 57 Humbucker.",
-          "Pastillas - Mástil - ToneRider Single Coil Hot Classic.",
+          "Pastillas - Humbucker posición mástil.",
+          "Pastillas - Kent Armstrong Classic.",
         ],
       },
     },
