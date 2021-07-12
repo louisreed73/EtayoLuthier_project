@@ -91,8 +91,7 @@ export class ServiceGuitarsKlein {
       id: 0,
       instrumento: "guitarra",
       name: "Guitarra tipo Klein Standard.",
-      tipo:
-        "Guitarra eléctrica tipo Klein  sólida en madera de sapelly y fresno.", //En pag Guitarras solo esta Caract
+      tipo: "Guitarra eléctrica tipo Klein  sólida en madera de sapelly y fresno.", //En pag Guitarras solo esta Caract
       woodTapa: "Tapa de madera de Fresno",
       woodCuerpo: "Cuerpo sólido de madera de Sapelly",
       clavijeroType: "Doble arco",
@@ -243,8 +242,7 @@ export class ServiceGuitarsKlein {
       id: 5,
       instrumento: "guitarra",
       name: "Guitarra tipo Klein Semiacústica adaptada 23.",
-      tipo:
-        "Guitarra eléctrica tipo Klein semiacústica en madera de Caoba y Palo Santo.", //En pag Guitarras solo esta Caract
+      tipo: "Guitarra eléctrica tipo Klein semiacústica en madera de Caoba y Palo Santo.", //En pag Guitarras solo esta Caract
       woodTapa: "Tapa de madera de Fresno",
       woodCuerpo: "Cuerpo sólido de madera de Sapelly",
       clavijeroType: "Doble arco",
@@ -309,8 +307,7 @@ export class ServiceGuitarsKlein {
       id: 7,
       instrumento: "guitarra",
       name: "Guitarra tipo Klein Semihueca Ergonómica XXL 22.",
-      tipo:
-        "Guitarra eléctrica tipo Klein a medida para estaturas grandes fuera de la media.", //En pag Guitarras solo esta Caract
+      tipo: "Guitarra eléctrica tipo Klein a medida para estaturas grandes fuera de la media.", //En pag Guitarras solo esta Caract
       woodTapa: "Tapa de madera de Fresno",
       woodCuerpo: "Cuerpo sólido de madera de Sapelly",
       clavijeroType: "Doble arco",
@@ -376,7 +373,7 @@ export class ServiceGuitarsKlein {
     {
       id: 11,
       instrumento: "guitarra",
-      name: "Guitarra tipo Klein Standard", //En pag Guitarras NOMBRE GUITARRA
+      name: "Guitarra tipo Klein Semiacústica", //En pag Guitarras NOMBRE GUITARRA
       tipo: "Guitarra eléctrica tipo Klein Sólida en madera de Fresno.", //En pag Guitarras RESUMEN CARACTERISTICAS GUITARRA
       woodTapa: "Tapa armónica de madera de Mongoy. Tapa trasera de Caoba.",
       woodCuerpo: "Cuerpo sólido de madera de Sapelly",
@@ -418,7 +415,7 @@ export class ServiceGuitarsKlein {
     {
       id: 12,
       instrumento: "guitarra",
-      name: "Guitarra tipo Klein Standard", //En pag Guitarras NOMBRE GUITARRA
+      name: "Guitarra tipo Klein Standard Semihueca", //En pag Guitarras NOMBRE GUITARRA
       tipo: "Guitarra eléctrica tipo Klein Sólida en madera de Fresno.", //En pag Guitarras RESUMEN CARACTERISTICAS GUITARRA
       woodTapa: "Tapa armónica de madera de Mongoy. Tapa trasera de Caoba.",
       woodCuerpo: "Cuerpo sólido de madera de Sapelly",

@@ -89,13 +89,13 @@ export class ServiceGuitarsVenta {
     {
       id: 2,
       instrumento: "guitarra",
-      name: "Guitarra tipo Klein Standard", //En pag Guitarras NOMBRE GUITARRA
+      name: "Guitarra tipo Klein Semiacústica", //En pag Guitarras NOMBRE GUITARRA
       tipo: "Guitarra eléctrica tipo Klein Sólida en madera de Fresno.", //En pag Guitarras RESUMEN CARACTERISTICAS GUITARRA
       woodTapa: "Tapa armónica de madera de Mongoy. Tapa trasera de Caoba.",
       woodCuerpo: "Cuerpo sólido de madera de Sapelly",
       clavijeroType: "Doble arco",
       //  horizontal:true,
-      precio: null,
+      precio: 1220,
       vendido: false,
       //  envio:30,
       envio: "- No incluidos -",
@@ -131,13 +131,13 @@ export class ServiceGuitarsVenta {
     {
       id: 3,
       instrumento: "guitarra",
-      name: "Guitarra tipo Klein Standard", //En pag Guitarras NOMBRE GUITARRA
+      name: "Guitarra tipo Klein Standard Semihueca", //En pag Guitarras NOMBRE GUITARRA
       tipo: "Guitarra eléctrica tipo Klein Sólida en madera de Fresno.", //En pag Guitarras RESUMEN CARACTERISTICAS GUITARRA
       woodTapa: "Tapa armónica de madera de Mongoy. Tapa trasera de Caoba.",
       woodCuerpo: "Cuerpo sólido de madera de Sapelly",
       clavijeroType: "Doble arco",
       //  horizontal:true,
-      precio: null,
+      precio: 1200,
       vendido: false,
       //  envio:30,
       envio: "- No incluidos -",
