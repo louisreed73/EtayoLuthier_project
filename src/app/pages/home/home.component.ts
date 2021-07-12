@@ -11,7 +11,7 @@ import { Meta, Title } from '@angular/platform-browser';
 })
 export class HomeComponent implements OnInit {
 
-  title:string="Etayo Luthier";
+  title:string="Etayo Luthier - Intrumentos personalizados - Madrid";
 
   constructor(
     private metaTitle:Title,

@@ -16,7 +16,7 @@ import { Meta, Title } from '@angular/platform-browser';
 })
 export class GuitarsComponent implements OnInit, OnDestroy {
   guitarsA: Object[];
-  title: string = "Etayo Luthier Guitars";
+  title: string = "Etayo Luthier - Intrumentos personalizados - Madrid";
 
   constructor(
     private guitars: ServiceGuitars,
@@ -27,9 +27,7 @@ export class GuitarsComponent implements OnInit, OnDestroy {
   ngOnInit() {
     window.scrollTo(0, 0);
 
-
     this.metaTitle.setTitle(this.title);
-
 
     this.metaService.updateTag(
       {

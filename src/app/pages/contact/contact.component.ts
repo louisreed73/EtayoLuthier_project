@@ -7,7 +7,7 @@ import { Meta, Title } from '@angular/platform-browser';
   styleUrls: ["./contact.component.scss"],
 })
 export class ContactComponent implements OnInit {
-  title: string = "Etayo Luthier Contacto";
+  title: string = "Etayo Luthier - Intrumentos personalizados - Madrid";
 
   constructor(private metaService: Meta, private metaTitle: Title) {}
 

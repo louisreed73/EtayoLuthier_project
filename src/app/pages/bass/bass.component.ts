@@ -9,7 +9,7 @@ import { ServiceBasses } from 'src/app/sharedServices/service-basses';
 })
 export class BassesComponent implements OnInit {
   bassesA: Object[];
-  title: string = "Etayo Luthier Bass";
+  title: string = "Etayo Luthier - Intrumentos personalizados - Madrid";
 
   constructor(
     private basses: ServiceBasses,
