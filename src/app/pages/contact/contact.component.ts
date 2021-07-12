@@ -20,7 +20,7 @@ export class ContactComponent implements OnInit {
       {
         name: "keywords",
         content:
-          "Luthier  en Madrid, construccion Guitarras, contruccion Bajos",
+          "Luthier  en Madrid, construcción Guitarras, construcción Bajos",
       },
       "name='keywords'"
     );

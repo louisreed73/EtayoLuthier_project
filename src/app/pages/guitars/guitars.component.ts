@@ -33,7 +33,7 @@ export class GuitarsComponent implements OnInit, OnDestroy {
       {
         name: "keywords",
         content:
-          "Luthier  en Madrid, construccion Guitarras, contruccion Bajos",
+          "Luthier  en Madrid, construcción Guitarras, construcción Bajos",
       },
       "name='keywords'"
     );

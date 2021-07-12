@@ -26,7 +26,11 @@ export class HomeComponent implements OnInit {
     this.metaTitle.setTitle(this.title);
 
         this.metaService.updateTag(
-          { name: "keywords", content: "Luthier  en Madrid, construccion Guitarras, contruccion Bajos" },
+          {
+            name: "keywords",
+            content:
+              "Luthier  en Madrid, construcción Guitarras, construcción Bajos",
+          },
           "name='keywords'"
         );
         this.metaService.updateTag(
