@@ -90,7 +90,7 @@ export class ServiceGuitarsVenta {
       id: 2,
       instrumento: "guitarra",
       name: "Guitarra tipo Klein Semiacústica", //En pag Guitarras NOMBRE GUITARRA
-      tipo: "Guitarra eléctrica tipo Klein Sólida en madera de Fresno.", //En pag Guitarras RESUMEN CARACTERISTICAS GUITARRA
+      tipo: "", //En pag Guitarras RESUMEN CARACTERISTICAS GUITARRA
       woodTapa: "Tapa armónica de madera de Mongoy. Tapa trasera de Caoba.",
       woodCuerpo: "Cuerpo sólido de madera de Sapelly",
       clavijeroType: "Doble arco",
@@ -114,7 +114,7 @@ export class ServiceGuitarsVenta {
         //En pag Show Guitars TabsCARACTERISTICAS GUITARRA
         Cuerpo: [
           "Cuerpo semiacustico",
-          "Tapa armónica de Aliso",
+          "Tapa armónica en madera de Acacia",
           "Fondo de Bubinga",
           "Aros de Arce.",
         ],
@@ -133,7 +133,7 @@ export class ServiceGuitarsVenta {
       id: 3,
       instrumento: "guitarra",
       name: "Guitarra tipo Klein Standard Semihueca", //En pag Guitarras NOMBRE GUITARRA
-      tipo: "Guitarra eléctrica tipo Klein Sólida en madera de Fresno.", //En pag Guitarras RESUMEN CARACTERISTICAS GUITARRA
+      tipo: "", //En pag Guitarras RESUMEN CARACTERISTICAS GUITARRA
       woodTapa: "Tapa armónica de madera de Mongoy. Tapa trasera de Caoba.",
       woodCuerpo: "Cuerpo sólido de madera de Sapelly",
       clavijeroType: "Doble arco",
@@ -161,7 +161,7 @@ export class ServiceGuitarsVenta {
         ],
         Mástil: [
           "Mango de madera de Arce Flameado.",
-          "Diapasón de madera de Caoba.",
+          "Diapasón de madera de Ébano.",
         ],
         Componentes: [
           "Puente de afinación Headless.",
