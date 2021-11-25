@@ -1,0 +1,35 @@
+Folder:
+
+EtayoLuthier_project
+
+Data to update in sharedServices - json: add new Guitars/Bass objects
+
+service-basses.ts
+service-guitars.ts
+service-guitarsKlein.ts
+service-guitarsVenta.ts
+
+
+-------------------
+
+make all photos fit 1500 X 844 including vertical
+
+--------------------
+
+1 make changes
+
+2 ng build --prod
+
+3 check is correct
+
+ npm start
+
+serving in localhost:3000
+
+Everything is correct
+
+4 firebase login
+
+5 firebase deploy --only hosting
+
+and that's all
