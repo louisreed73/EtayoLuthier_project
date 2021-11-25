@@ -22,7 +22,7 @@ make all photos fit 1500 X 844 including vertical
 
 3 check is correct
 
- npm start
+ ng serve -o
 
 serving in localhost:3000
 
